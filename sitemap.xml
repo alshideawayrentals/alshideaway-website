@@ -1,45 +1,466 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.staytexashillcountry.com/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/cabins.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/rv-camping.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/events.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/hill-country-guide.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/scenic-drives.html</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/faq.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <u
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WXBLKHVD');</script>
+<!-- End Google Tag Manager -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RV Sites & Camping Near Bandera TX | Texas Hill Country | Al's Hideaway</title>
+  <meta name="description" content="10 full-hookup RV sites and 9 cowboy campsites in Pipe Creek, TX. Pet-friendly, pull-through sites, 20/30/50 amp service. Near Bandera, Boerne & San Antonio. Book direct at Al's Hideaway." />
+  <link rel="canonical" href="https://www.staytexashillcountry.com/rv-camping.html" />
+  <meta property="og:title" content="RV Sites & Camping Near Bandera TX | Al's Hideaway Texas Hill Country" />
+  <meta property="og:description" content="10 full-hookup pull-through RV sites and 9 cowboy campsites on 20 scenic acres in Pipe Creek, TX. Pet-friendly, no pet fees. Book direct." />
+  <meta property="og:url" content="https://www.staytexashillcountry.com/rv-camping.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/bbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" /></noscript>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .page-hero {
+      background:
+        linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
+        url('https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/bbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg') center/cover no-repeat;
+    }
+    .spec-table { width: 100%; border-collapse: collapse; margin-top: 28px; }
+    .spec-table th { background: var(--green-dark); color: #fff; padding: 12px 16px; text-align: left; font-size: 0.88rem; letter-spacing: 0.04em; }
+    .spec-table td { padding: 12px 16px; border-bottom: 1px solid #eee; font-size: 0.92rem; color: #2d2d2d; }
+    .spec-table tr:nth-child(even) td { background: var(--tan); }
+    .check { color: var(--green); font-weight: 700; }
+  </style>
+  <link rel="preload" as="image" href="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/bbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg" fetchpriority="high" />
+<style>
+  .skip-nav { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+  .skip-nav:focus { position: fixed; top: 0; left: 0; width: auto; height: auto; padding: 12px 24px; background: var(--green-dark, #2c5230); color: #fff; font-weight: 700; font-size: 1rem; z-index: 9999; border-radius: 0 0 8px 0; text-decoration: none; }
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-nav">Skip to main content</a>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXBLKHVD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">Al's Hideaway</a>
+    <button class="nav-toggle" onclick="this.closest('nav').querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="cabins.html">Cabins</a></li>
+      <li><a href="rv-camping.html" class="active">RV & Camping</a></li>
+      <li><a href="events.html">Events & Venue</a></li>
+      <li><a href="hill-country-guide.html">Area Guide</a></li>
+      <li><a href="scenic-drives.html">Scenic Drives</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a class="nav-cta" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a>
+  </div>
+</nav>
+
+<main>
+<!-- BREADCRUMB -->
+<div class="breadcrumb container">
+  <a href="index.html">Home</a> <span>&nbsp;›&nbsp; RV Sites & Camping</span>
+</div>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="hero-badge">Pipe Creek, TX · 20 Acres · Near Bandera</div>
+  <h1>Texas Hill Country RV Sites & Cowboy Campsites</h1>
+  <p>10 full-hookup pull-through RV sites and 9 primitive cowboy campsites on 20 beautiful acres. Pets always welcome, no extra fees.</p>
+  <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+    <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=3" target="_blank">Book an RV Site</a>
+    <a class="btn btn-secondary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=7" target="_blank">Book a Campsite</a>
+  </div>
+</section>
+
+<!-- PROMO BAR -->
+<div class="promo-bar">
+  🎉 Book 2+ Nights Online & Save 10% — Use Promo Code <span class="promo-code">FUN</span> at Checkout
+</div>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item"><span class="icon">⭐</span> 4.9 Stars · 555+ Google Reviews</div>
+    <div class="trust-item"><span class="icon">🐾</span> Pets Always Free</div>
+    <div class="trust-item"><span class="icon">🏆</span> TACO Accommodations of the Year 2024</div>
+    <div class="trust-item"><span class="icon">👨‍👩‍👧</span> On-Site Owners</div>
+  </div>
+</div>
+
+<!-- RV SITES -->
+<section class="section">
+  <div class="container">
+    <div class="two-col">
+      <img src="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/bbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg" alt="Full-hookup pull-through RV sites at Al's Hideaway in Pipe Creek Texas" loading="lazy" />
+      <div>
+        <span class="cabin-tag">Full Hookups · Pull-Through · 10 Sites</span>
+        <h2>Full-Hookup RV Sites in the Texas Hill Country</h2>
+        <p style="margin-bottom:14px;">Our 10 spacious pull-through RV sites make setup quick and easy. Each site comes with full water, sewer, and electric hookups — 20, 30, and 50 amp service available.</p>
+        <p style="margin-bottom:14px;">Several sites include covered dog kennels, and all are positioned close to the pool, pavilion, and on-site store. You're staying on 20 acres of scenic Hill Country land — not a cramped asphalt lot.</p>
+        <p style="margin-bottom:28px;">Big rigs welcome. Slide-outs, tow vehicles, no problem.</p>
+
+        <table class="spec-table">
+          <tr><th>Feature</th><th>Details</th></tr>
+          <tr><td>Electric</td><td>20 / 30 / 50 Amp</td></tr>
+          <tr><td>Water</td><td><span class="check">✓</span> Full hookup</td></tr>
+          <tr><td>Sewer</td><td><span class="check">✓</span> Full hookup</td></tr>
+          <tr><td>Pull-Through</td><td><span class="check">✓</span> Yes — big rigs welcome</td></tr>
+          <tr><td>Dog Kennels</td><td><span class="check">✓</span> Available on select sites</td></tr>
+          <tr><td>WiFi</td><td><span class="check">✓</span> Free on-site WiFi</td></tr>
+          <tr><td>Pool Access</td><td><span class="check">✓</span> Included</td></tr>
+          <tr><td>Pet Fee</td><td><strong style="color:var(--green)">$0 — Always Free</strong></td></tr>
+        </table>
+
+        <br />
+        <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=3" target="_blank">Reserve an RV Site</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COWBOY CAMPSITES -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <span class="cabin-tag">Primitive · Shaded · 9 Sites</span>
+        <h2>Cowboy Campsites — Sleep Under the Hill Country Stars</h2>
+        <p style="margin-bottom:14px;">Our 9 primitive cowboy campsites bring you back to the basics — in the best way. Shaded spots, open space for hammocks, and some of the darkest, starriest skies in Central Texas.</p>
+        <p style="margin-bottom:14px;">Each campsite has access to clean restrooms, hot showers, walking trails, and all the on-site amenities you'd expect from an award-winning campground.</p>
+        <p style="margin-bottom:28px;">Perfect for tent campers, hammock campers, or anyone who wants to fully unplug and get back to nature.</p>
+
+        <table class="spec-table">
+          <tr><th>Feature</th><th>Details</th></tr>
+          <tr><td>Type</td><td>Primitive / Tent Camping</td></tr>
+          <tr><td>Shade</td><td><span class="check">✓</span> Shaded sites</td></tr>
+          <tr><td>Restrooms</td><td><span class="check">✓</span> Clean restrooms nearby</td></tr>
+          <tr><td>Hot Showers</td><td><span class="check">✓</span> Available</td></tr>
+          <tr><td>Walking Trails</td><td><span class="check">✓</span> 20 acres to explore</td></tr>
+          <tr><td>Pool Access</td><td><span class="check">✓</span> Included</td></tr>
+          <tr><td>Campfire Area</td><td><span class="check">✓</span> Evening campfires</td></tr>
+          <tr><td>Pet Fee</td><td><strong style="color:var(--green)">$0 — Always Free</strong></td></tr>
+        </table>
+
+        <br />
+        <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=7" target="_blank">Reserve a Campsite</a>
+      </div>
+      <img src="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/9b00612d-ba0e-40ab-a5ba-4b8294fb6b88-1920w.jpg" alt="Primitive cowboy tent campsites at Al's Hideaway Texas Hill Country" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<!-- AMENITIES -->
+<section class="section">
+  <div class="container centered">
+    <h2>On-Site Amenities for All Guests</h2>
+    <p>RV and camping guests enjoy full access to everything Al's Hideaway has to offer.</p>
+    <div class="highlights">
+      <div class="highlight-item"><div class="highlight-icon">🏊</div><h3>Swimming Pool</h3><p>Cool off and unwind in our on-site pool.</p></div>
+      <div class="highlight-item"><div class="highlight-icon">🔥</div><h3>Evening Campfires</h3><p>Gather around the fire under a million stars.</p></div>
+      <div class="highlight-item"><div class="highlight-icon">🏟️</div><h3>Event Pavilion</h3><p>Outdoor kitchen, fireplace & big-screen TV.</p></div>
+      <div class="highlight-item"><div class="highlight-icon">🥏</div><h3>Outdoor Games</h3><p>Horseshoes, bean bag toss & disc golf (2 nets).</p></div>
+      <div class="highlight-item"><div class="highlight-icon">🛒</div><h3>MeMaw's Store</h3><p>Snacks, smoothies, essentials & souvenirs on-site.</p></div>
+      <div class="highlight-item"><div class="highlight-icon">🥾</div><h3>Walking Trails</h3><p>Explore 20 scenic acres on foot with your pup.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner">
+  <div class="container">
+    <h2>Ready to Roll In?</h2>
+    <p>RV sites and campsites go fast on weekends. Book direct for the best price and no hidden fees.</p>
+    <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+      <a class="btn" style="background:white; color:var(--green-dark); font-weight:700; padding:16px 36px; font-size:1.05rem;" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=3" target="_blank">Book an RV Site</a>
+      <a class="btn btn-secondary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=7" target="_blank">Book a Campsite</a>
+    </div>
+    <div class="cta-promo">
+      <span>🎉 Use promo code <span style="background:rgba(0,0,0,0.25); padding:2px 10px; border-radius:4px;">FUN</span> when booking 2+ nights to save 10%</span>
+    </div>
+    <p class="cta-sub">No pet fees · No resort fees · Best price when you book direct</p>
+  </div>
+</section>
+
+</main>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">Al's Hideaway</div>
+      <p class="footer-tagline">Cabins, RV Sites & Campsites in the Texas Hill Country. Come as a visitor, leave as family.</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-heading">Stay</p>
+      <ul>
+        <li><a href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a></li>
+        <li><a href="cabins.html">All 13 Cabins</a></li>
+        <li><a href="rv-camping.html">RV Sites & Camping</a></li>
+        <li><a href="faq.html">Policies & FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-heading">Explore</p>
+      <ul>
+        <li><a href="hill-country-guide.html">Texas Hill Country Guide</a></li>
+        <li><a href="scenic-drives.html">Scenic Drives</a></li>
+        <li><a href="events.html">Weddings & Celebrations</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-heading">Contact</p>
+      <ul>
+        <li><a href="tel:8305103331">📞 830-510-3331</a></li>
+        <li><a href="mailto:alshideawayrentals@gmail.com">✉️ Email Us</a></li>
+        <li><a href="https://maps.google.com/?q=299+Willow+Springs+Drive+Pipe+Creek+Texas+78063" target="_blank">📍 299 Willow Springs Dr<br>Pipe Creek, TX 78063</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Al's Hideaway · staytexashillcountry.com · All rights reserved.</span>
+    <div class="social-links">
+      <a href="https://facebook.com/Alshideawaycabinandrvrentals/" target="_blank">Facebook</a>
+      <a href="https://instagram.com/alshideaway/" target="_blank">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ── AL'S HIDEAWAY AI CONCIERGE WIDGET ── -->
+<button id="ah-chat-bubble" onclick="ahToggleChat()" title="Chat with our AI concierge" aria-label="Open chat">
+  <svg id="ah-chat-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="26" height="26"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l4.93-1.37A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm-1 13H7v-2h4v2zm6 0h-4v-2h4v2zm0-4H7V9h10v2z"/></svg>
+  <svg id="ah-close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="26" height="26" style="display:none"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+</button>
+
+<div id="ah-chat-panel">
+  <div id="ah-chat-header">
+    <div>
+      <div style="font-weight:700;font-size:1rem;">Al's Hideaway Concierge</div>
+      <div style="font-size:0.75rem;opacity:0.85;">Ask anything about our property 🤠</div>
+    </div>
+    <a href="tel:8305103331" style="color:#fff;font-size:0.78rem;opacity:0.85;text-decoration:none;">📞 830-510-3331</a>
+  </div>
+
+  <div id="ah-chat-messages">
+    <div class="ah-msg ah-msg-bot">
+      Howdy! I'm the Al's Hideaway AI concierge. Ask me about our cabins, RV sites, pet policy, local drives, upcoming events — anything! 🏕️
+    </div>
+    <div id="ah-suggestions">
+      <button class="ah-suggestion" onclick="ahSend(this.textContent)">🏠 What cabins do you have?</button>
+      <button class="ah-suggestion" onclick="ahSend(this.textContent)">🐾 Are pets allowed?</button>
+      <button class="ah-suggestion" onclick="ahSend(this.textContent)">🛣️ What scenic drives are nearby?</button>
+      <button class="ah-suggestion" onclick="ahSend(this.textContent)">🎉 Any local events coming up?</button>
+      <button class="ah-suggestion" onclick="ahSend(this.textContent)">💰 How do I save on my booking?</button>
+    </div>
+  </div>
+
+  <div id="ah-chat-input-row">
+    <input id="ah-chat-input" type="text" placeholder="Type a question…" onkeydown="if(event.key==='Enter')ahSend()" maxlength="300" />
+    <button id="ah-send-btn" onclick="ahSend()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="20" height="20"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+    </button>
+  </div>
+</div>
+
+<style>
+#ah-chat-bubble { border: none; cursor: pointer; 
+  position: fixed; bottom: 24px; right: 24px; z-index: 9999;
+  width: 58px; height: 58px; border-radius: 50%;
+  background: #3a6b3a; box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;
+  border: none; outline: none;
+}
+#ah-chat-bubble:hover { transform: scale(1.08); box-shadow: 0 6px 28px rgba(0,0,0,0.30); }
+
+#ah-chat-panel {
+  position: fixed; bottom: 96px; right: 24px; z-index: 9998;
+  width: 360px; max-height: 520px;
+  background: #fff; border-radius: 16px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+  display: none; flex-direction: column; overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+#ah-chat-panel.open { display: flex; }
+
+#ah-chat-header {
+  background: #3a6b3a; color: #fff;
+  padding: 14px 18px; display: flex;
+  align-items: center; justify-content: space-between;
+  flex-shrink: 0;
+}
+
+#ah-chat-messages {
+  flex: 1; overflow-y: auto; padding: 16px;
+  display: flex; flex-direction: column; gap: 10px;
+  background: #f9f6f1;
+}
+
+.ah-msg {
+  max-width: 82%; padding: 10px 14px;
+  border-radius: 14px; font-size: 0.88rem;
+  line-height: 1.55; color: #2d2d2d;
+}
+.ah-msg-bot {
+  background: #fff; border-radius: 4px 14px 14px 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  align-self: flex-start;
+}
+.ah-msg-user {
+  background: #3a6b3a; color: #fff;
+  border-radius: 14px 14px 4px 14px;
+  align-self: flex-end;
+}
+.ah-typing {
+  display: flex; gap: 5px; align-items: center;
+  padding: 10px 14px; align-self: flex-start;
+  background: #fff; border-radius: 4px 14px 14px 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+.ah-dot {
+  width: 7px; height: 7px; background: #aaa;
+  border-radius: 50%; animation: ahBounce 1.2s infinite;
+}
+.ah-dot:nth-child(2) { animation-delay: 0.2s; }
+.ah-dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes ahBounce {
+  0%,60%,100% { transform: translateY(0); }
+  30% { transform: translateY(-6px); }
+}
+
+#ah-suggestions {
+  display: flex; flex-direction: column; gap: 7px; margin-top: 4px;
+}
+.ah-suggestion {
+  background: #fff; border: 1.5px solid #d4e4d4; border-radius: 20px;
+  padding: 7px 13px; font-size: 0.82rem; color: #2c5230;
+  cursor: pointer; text-align: left; transition: all 0.15s;
+  font-family: 'Inter', sans-serif;
+}
+.ah-suggestion:hover { background: #3a6b3a; color: #fff; border-color: #3a6b3a; }
+
+#ah-chat-input-row {
+  display: flex; gap: 8px; padding: 12px 14px;
+  background: #fff; border-top: 1px solid #eee; flex-shrink: 0;
+}
+#ah-chat-input {
+  flex: 1; padding: 9px 13px; border: 1.5px solid #d0d0d0;
+  border-radius: 20px; font-size: 0.88rem; outline: none;
+  font-family: 'Inter', sans-serif; transition: border-color 0.15s;
+}
+#ah-chat-input:focus { border-color: #3a6b3a; }
+#ah-send-btn {
+  width: 38px; height: 38px; border-radius: 50%;
+  background: #3a6b3a; border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; transition: background 0.15s;
+}
+#ah-send-btn:hover { background: #2c5230; }
+
+@media (max-width: 420px) {
+  #ah-chat-panel { width: calc(100vw - 32px); right: 16px; bottom: 88px; }
+  #ah-chat-bubble { border: none; cursor: pointer;  right: 16px; bottom: 16px; }
+}
+</style>
+
+<script>
+(function() {
+  var messages = [];
+  var isOpen = false;
+  var isLoading = false;
+
+  window.ahToggleChat = function() {
+    isOpen = !isOpen;
+    var panel = document.getElementById('ah-chat-panel');
+    var chatIcon = document.getElementById('ah-chat-icon');
+    var closeIcon = document.getElementById('ah-close-icon');
+    panel.classList.toggle('open', isOpen);
+    chatIcon.style.display = isOpen ? 'none' : 'block';
+    closeIcon.style.display = isOpen ? 'block' : 'none';
+    if (isOpen) {
+      setTimeout(function() { document.getElementById('ah-chat-input').focus(); }, 200);
+    }
+  };
+
+  window.ahSend = function(text) {
+    if (isLoading) return;
+    var input = document.getElementById('ah-chat-input');
+    var msg = (text || input.value).trim();
+    if (!msg) return;
+
+    // Hide suggestion chips after first message
+    var suggestions = document.getElementById('ah-suggestions');
+    if (suggestions) suggestions.style.display = 'none';
+
+    input.value = '';
+    ahAddMessage(msg, 'user');
+    messages.push({ role: 'user', content: msg });
+    ahShowTyping();
+    isLoading = true;
+    document.getElementById('ah-send-btn').style.opacity = '0.5';
+
+    fetch('/.netlify/functions/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ messages: messages })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      ahRemoveTyping();
+      isLoading = false;
+      document.getElementById('ah-send-btn').style.opacity = '1';
+      var reply = data.reply || "Sorry, I had a hiccup! Call us at 830-510-3331 and we'll help you out. 🤠";
+      ahAddMessage(reply, 'bot');
+      messages.push({ role: 'assistant', content: reply });
+    })
+    .catch(function() {
+      ahRemoveTyping();
+      isLoading = false;
+      document.getElementById('ah-send-btn').style.opacity = '1';
+      ahAddMessage("Oops, something went wrong on my end! Give us a call at 830-510-3331 or email alshideawayrentals@gmail.com. 🤠", 'bot');
+    });
+  };
+
+  function ahAddMessage(text, role) {
+    var msgs = document.getElementById('ah-chat-messages');
+    var div = document.createElement('div');
+    div.className = 'ah-msg ah-msg-' + role;
+    div.textContent = text;
+    msgs.appendChild(div);
+    msgs.scrollTop = msgs.scrollHeight;
+  }
+
+  function ahShowTyping() {
+    var msgs = document.getElementById('ah-chat-messages');
+    var div = document.createElement('div');
+    div.className = 'ah-typing'; div.id = 'ah-typing-indicator';
+    div.innerHTML = '<div class="ah-dot"></div><div class="ah-dot"></div><div class="ah-dot"></div>';
+    msgs.appendChild(div);
+    msgs.scrollTop = msgs.scrollHeight;
+  }
+
+  function ahRemoveTyping() {
+    var el = document.getElementById('ah-typing-indicator');
+    if (el) el.remove();
+  }
+})();
+</script>
+<!-- ── END AI CONCIERGE WIDGET ── -->
+
+</body>
+</html>

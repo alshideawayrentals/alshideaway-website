@@ -279,10 +279,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- ── AL'S HIDEAWAY AI CONCIERGE WIDGET ── -->
-<div id="ah-chat-bubble" onclick="ahToggleChat()" title="Chat with our AI concierge" aria-label="Open chat">
+<button id="ah-chat-bubble" onclick="ahToggleChat()" title="Chat with our AI concierge" aria-label="Open chat">
   <svg id="ah-chat-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="26" height="26"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l4.93-1.37A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm-1 13H7v-2h4v2zm6 0h-4v-2h4v2zm0-4H7V9h10v2z"/></svg>
   <svg id="ah-close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="26" height="26" style="display:none"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-</div>
+</button>
 
 <div id="ah-chat-panel">
   <div id="ah-chat-header">
@@ -315,7 +315,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <style>
-#ah-chat-bubble {
+#ah-chat-bubble { border: none; cursor: pointer; 
   position: fixed; bottom: 24px; right: 24px; z-index: 9999;
   width: 58px; height: 58px; border-radius: 50%;
   background: #3a6b3a; box-shadow: 0 4px 20px rgba(0,0,0,0.25);
@@ -411,7 +411,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 @media (max-width: 420px) {
   #ah-chat-panel { width: calc(100vw - 32px); right: 16px; bottom: 88px; }
-  #ah-chat-bubble { right: 16px; bottom: 16px; }
+  #ah-chat-bubble { border: none; cursor: pointer;  right: 16px; bottom: 16px; }
 }
 </style>
 

@@ -10,26 +10,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Texas Hill Country Guide — Things to Do Near Bandera TX | Al's Hideaway</title>
-  <meta name="description" content="Your complete guide to the Texas Hill Country. Explore Bandera, Boerne, Fredericksburg & San Antonio from Al's Hideaway in Pipe Creek TX. Outdoor adventures, BBQ, wineries & more." />
-  <link rel="canonical" href="https://www.staytexashillcountry.com/hill-country-guide.html" />
-  <meta property="og:title" content="Texas Hill Country Travel Guide | Things to Do Near Bandera TX" />
-  <meta property="og:description" content="Explore the best of Texas Hill Country from Al's Hideaway. Bandera rodeos, Guadalupe River tubing, wineries, BBQ, state parks, and more — all within 1 hour of our cabins." />
-  <meta property="og:url" content="https://www.staytexashillcountry.com/hill-country-guide.html" />
+  <title>Best Scenic Drives Near Bandera TX | Texas Hill Country Road Trips | Al's Hideaway</title>
+  <meta name="description" content="Discover the most breathtaking scenic drives in the Texas Hill Country — the Twisted Sisters, FM 470, TX-16, and more. All within minutes of Al's Hideaway in Pipe Creek, TX." />
+  <link rel="canonical" href="https://www.staytexashillcountry.com/scenic-drives.html" />
+  <meta name="keywords" content="scenic drives near me, scenic drives Texas Hill Country, best scenic drives near San Antonio, Texas Hill Country road trip, Twisted Sisters motorcycle ride Texas, scenic routes Texas, hill country scenic drive, Bandera Texas scenic drive" />
+  <meta property="og:title" content="Best Scenic Drives in the Texas Hill Country | Al's Hideaway" />
+  <meta property="og:description" content="The Texas Hill Country is home to some of America's most stunning scenic drives. Explore winding ranch roads, river crossings, and hilltop views — all near Al's Hideaway in Pipe Creek, TX." />
+  <meta property="og:url" content="https://www.staytexashillcountry.com/scenic-drives.html" />
   <meta property="og:type" content="article" />
   <meta property="og:image" content="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/Front+of+cabins-908w.jpeg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Scenic Drives in the Texas Hill Country" />
+  <meta name="twitter:description" content="Winding ranch roads, river crossings, wildflower fields — discover the most beautiful drives near Bandera, TX." />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "TouristDestination",
-    "name": "Texas Hill Country",
-    "description": "The Texas Hill Country is a scenic region of central Texas known for rolling hills, rivers, wildlife, wineries, and charming small towns including Bandera, Boerne, Kerrville, and Fredericksburg.",
-    "url": "https://www.staytexashillcountry.com/hill-country-guide.html",
-    "touristType": ["Family", "Couples", "Adventure seekers", "Pet owners"],
-    "containedInPlace": {
-      "@type": "State",
-      "name": "Texas"
+    "@type": "Article",
+    "headline": "Best Scenic Drives in the Texas Hill Country Near Bandera",
+    "description": "A local guide to the most beautiful scenic drives in the Texas Hill Country, including the Twisted Sisters, FM 470, TX-16, and routes near San Antonio and Austin.",
+    "url": "https://www.staytexashillcountry.com/scenic-drives.html",
+    "author": {
+      "@type": "Organization",
+      "name": "Al's Hideaway Cabin and RV Rentals",
+      "url": "https://www.staytexashillcountry.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Al's Hideaway Cabin and RV Rentals",
+      "url": "https://www.staytexashillcountry.com"
+    },
+    "about": {
+      "@type": "TouristAttraction",
+      "name": "Texas Hill Country Scenic Drives",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "29.6947112",
+        "longitude": "-98.9036414"
+      }
     }
   }
   </script>
@@ -46,32 +64,140 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
         url('images/aerial-property.webp') center/cover no-repeat;
     }
-    .town-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 40px; }
-    .town-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
-    .town-card-header { background: var(--green); padding: 20px 22px; }
-    .town-card-header h3 { color: #fff; margin-bottom: 4px; }
-    .town-card-header .dist { color: rgba(255,255,255,0.75); font-size: 0.82rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
-    .town-card-body { padding: 22px; }
-    .town-card-body p { font-size: 0.9rem; margin-bottom: 14px; }
-    .town-highlights { list-style: none; display: flex; flex-direction: column; gap: 6px; }
-    .town-highlights li { font-size: 0.85rem; color: var(--muted); padding-left: 16px; position: relative; }
-    .town-highlights li::before { content: '→'; position: absolute; left: 0; color: var(--rust); font-weight: 700; }
-    .activity-section { margin-bottom: 56px; }
-    .activity-section:last-child { margin-bottom: 0; }
-    .activity-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 28px; }
-    .activity-item { background: #fff; border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); display: flex; gap: 16px; align-items: flex-start; }
-    .activity-icon { font-size: 1.8rem; flex-shrink: 0; }
-    .activity-item h3 { color: #2d2d2d; margin-bottom: 5px; font-size: 1rem; }
-    .activity-item p { font-size: 0.86rem; }
-    .season-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 32px; }
-    .season-card { background: #fff; border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); border-top: 4px solid var(--green); }
-    .season-card h3 { color: #2d2d2d; margin-bottom: 10px; }
-    .season-card p { font-size: 0.88rem; }
-    .tip-box { background: var(--tan); border-left: 4px solid var(--green); border-radius: 0 var(--radius) var(--radius) 0; padding: 20px 24px; margin: 28px 0; }
-    .tip-box p { font-size: 0.93rem; color: #2d2d2d; }
+    .drive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 28px;
+      margin-top: 40px;
+    }
+    .drive-card {
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .drive-card-header {
+      background: var(--green);
+      padding: 22px 24px 18px;
+      position: relative;
+    }
+    .drive-card-header h3 {
+      color: #fff;
+      margin-bottom: 4px;
+      font-size: 1.2rem;
+    }
+    .drive-meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+    .drive-badge {
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.30);
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .drive-card-body {
+      padding: 22px 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .drive-card-body p {
+      font-size: 0.92rem;
+      line-height: 1.65;
+      margin-bottom: 16px;
+      flex: 1;
+    }
+    .drive-highlights {
+      list-style: none;
+      margin: 0 0 18px;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .drive-highlights li {
+      font-size: 0.85rem;
+      color: var(--muted);
+      padding-left: 18px;
+      position: relative;
+    }
+    .drive-highlights li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--rust);
+      font-weight: 700;
+    }
+    .drive-distance {
+      display: inline-block;
+      background: var(--tan);
+      color: var(--green-dark);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 6px;
+      margin-top: auto;
+    }
+    .tip-box {
+      background: var(--tan);
+      border-left: 4px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 20px 24px;
+      margin: 32px 0;
+    }
+    .tip-box p { font-size: 0.93rem; color: #2d2d2d; margin: 0; }
     .tip-box strong { color: var(--green-dark); }
+    .season-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+    }
+    .season-item {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      box-shadow: var(--shadow);
+      border-top: 3px solid var(--green);
+    }
+    .season-item h4 { color: #2d2d2d; margin-bottom: 6px; font-size: 0.95rem; }
+    .season-item p { font-size: 0.84rem; color: var(--muted); margin: 0; }
+    .featured-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--green);
+      font-family: 'Playfair Display', serif;
+      line-height: 1;
+      margin-bottom: 2px;
+    }
+    .cta-banner {
+      background: var(--green);
+      border-radius: var(--radius);
+      padding: 40px 36px;
+      text-align: center;
+      color: #fff;
+      margin-top: 60px;
+    }
+    .cta-banner h2 { color: #fff; margin-bottom: 12px; }
+    .cta-banner p { color: rgba(255,255,255,0.88); max-width: 520px; margin: 0 auto 26px; font-size: 1rem; }
+    .map-embed {
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      margin-top: 32px;
+    }
+    .map-embed iframe { display: block; width: 100%; border: 0; }
   </style>
-  <link rel="preload" as="image" href="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/AdobeStock_432258435-908w.jpeg" fetchpriority="high" />
 <style>
   .skip-nav { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
   .skip-nav:focus { position: fixed; top: 0; left: 0; width: auto; height: auto; padding: 12px 24px; background: var(--green-dark, #2c5230); color: #fff; font-weight: 700; font-size: 1rem; z-index: 9999; border-radius: 0 0 8px 0; text-decoration: none; }
@@ -84,7 +210,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<!-- NAV -->
 <nav>
   <div class="nav-inner">
     <a class="nav-logo" href="index.html">Al's Hideaway</a>
@@ -93,429 +218,297 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </button>
     <ul class="nav-links">
       <li><a href="cabins.html">Cabins</a></li>
-      <li><a href="rv-camping.html">RV & Camping</a></li>
-      <li><a href="events.html">Events & Venue</a></li>
-      <li><a href="hill-country-guide.html" class="active">Area Guide</a></li>
-      <li><a href="scenic-drives.html">Scenic Drives</a></li>
+      <li><a href="rv-camping.html">RV &amp; Camping</a></li>
+      <li><a href="events.html">Events &amp; Venue</a></li>
+      <li><a href="hill-country-guide.html">Area Guide</a></li>
+      <li><a href="scenic-drives.html" class="active">Scenic Drives</a></li>
       <li><a href="faq.html">FAQ</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <a class="nav-cta" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Book a Cabin</a>
+    <a class="nav-cta" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a>
   </div>
 </nav>
 
+<!-- Page Hero -->
+<header class="page-hero">
+  <div class="page-hero-content">
+    <p class="eyebrow">Texas Hill Country Road Trips</p>
+    <h1>Best Scenic Drives Near Bandera, TX</h1>
+    <p>Winding ranch roads, river crossings, hilltop panoramas, and fields of bluebonnets — the Texas Hill Country is home to some of the most beautiful drives in America. Al's Hideaway sits right in the heart of it all.</p>
+  </div>
+</header>
+
 <main>
-<!-- BREADCRUMB -->
-<div class="breadcrumb container">
-  <a href="index.html">Home</a> <span>&nbsp;›&nbsp; Texas Hill Country Guide</span>
-</div>
 
-<!-- HERO -->
-<section class="page-hero">
-  <div class="hero-badge">Your Hill Country Home Base · Pipe Creek, TX</div>
-  <h1>Texas Hill Country Travel Guide</h1>
-  <p>Everything to see, do, eat, and explore in the Texas Hill Country — from Bandera to Fredericksburg, all within easy reach of Al's Hideaway.</p>
-  <a class="btn btn-primary" href="cabins.html">Book a Cabin & Start Exploring</a>
-</section>
-
-<!-- INTRO -->
-<section class="section">
-  <div class="container">
-    <div class="two-col">
-      <div>
-        <h2>Why the Texas Hill Country?</h2>
-        <p style="margin-bottom:14px;">The Texas Hill Country is one of the most beautiful and beloved regions in the Lone Star State — a landscape of rolling limestone hills, crystal-clear rivers, ancient live oaks, and some of the friendliest small towns in America.</p>
-        <p style="margin-bottom:14px;">It's the kind of place where you can tube a river in the morning, taste award-winning wine at lunch, watch a real rodeo in the afternoon, and fall asleep under more stars than you've ever seen.</p>
-        <p style="margin-bottom:28px;"><strong style="color:#2d2d2d;">Al's Hideaway in Pipe Creek</strong> puts you right in the middle of it all — 15 minutes from Bandera, 15 minutes from Boerne, and 45 minutes from San Antonio. We're also just 6 minutes from the brand-new Albert &amp; Bessie Kronkosky State Natural Area.</p>
-        <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Reserve Your Cabin Now</a>
+  <!-- Intro Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Your Base Camp for Hill Country Roads</p>
+        <h2>Drive Amazing Roads, Sleep Under the Stars</h2>
+        <p class="section-subhead">Staying at Al's Hideaway in Pipe Creek puts you within minutes of legendary Texas Hill Country drives — including sections of the famous Twisted Sisters motorcycle route. Wake up, grab your keys, and go.</p>
       </div>
-      <img src="images/aerial-property.webp" alt="Aerial view of Al's Hideaway campground in the Texas Hill Country" loading="lazy" />
+
+      <div class="tip-box">
+        <p><strong>Local Insider Tip:</strong> Spring (March–April) brings bluebonnets along nearly every route listed here. If you can visit during wildflower season, do it — the Hill Country becomes something out of a painting. Fall (October–November) is a close second for color and cool temperatures.</p>
+      </div>
+
+      <div class="drive-grid">
+
+        <!-- Drive 1: Twisted Sisters -->
+        <div class="drive-card">
+          <div class="drive-card-header">
+            <h3>The Twisted Sisters — RR 335, 336 &amp; 337</h3>
+            <div class="drive-meta">
+              <span class="drive-badge">⭐ Most Famous</span>
+              <span class="drive-badge">🏍️ Biker Favorite</span>
+            </div>
+          </div>
+          <div class="drive-card-body">
+            <p>The crown jewel of Texas Hill Country drives. Ranch Roads 335, 336, and 337 form a legendary loop through Leakey, Vanderpool, and Medina — just 20 minutes from Al's Hideaway. Sweeping curves, dramatic elevation changes, and almost no traffic make this a bucket-list drive for motorcyclists and road trippers alike. The stretch through the Sabinal River canyon is unforgettable.</p>
+            <ul class="drive-highlights">
+              <li>Start in Medina (10 min from Al's Hideaway) and loop back through Leakey</li>
+              <li>Best on weekday mornings — weekends bring motorcycle traffic</li>
+              <li>Stop at the Medina Lake overlook for panoramic views</li>
+              <li>Full loop is approximately 100 miles — allow 2–3 hours</li>
+            </ul>
+            <span class="drive-distance">📍 10 min from Al's Hideaway</span>
+          </div>
+        </div>
+
+        <!-- Drive 2: FM 470 -->
+        <div class="drive-card">
+          <div class="drive-card-header">
+            <h3>FM 470 — Bandera to Medina</h3>
+            <div class="drive-meta">
+              <span class="drive-badge">🌸 Wildflower Route</span>
+              <span class="drive-badge">🚗 Family Friendly</span>
+            </div>
+          </div>
+          <div class="drive-card-body">
+            <p>A beautiful and easy drive that connects Bandera to Medina through classic Hill Country ranch land. FM 470 winds past limestone outcroppings, cedar and live oak canopy, and working cattle ranches. In spring, the roadside comes alive with Indian paintbrush, bluebonnets, and coreopsis. This is the quintessential Texas Hill Country back road — relaxed, gorgeous, and right in our backyard.</p>
+            <ul class="drive-highlights">
+              <li>Connects directly to the Twisted Sisters loop at Medina</li>
+              <li>Pass through Bandera — stop for breakfast at OST Restaurant first</li>
+              <li>Excellent wildflower viewing March through early April</li>
+              <li>Approx. 25 miles, 30–40 minutes at a leisurely pace</li>
+            </ul>
+            <span class="drive-distance">📍 5 min from Al's Hideaway</span>
+          </div>
+        </div>
+
+        <!-- Drive 3: TX-16 Kerrville to Fredericksburg -->
+        <div class="drive-card">
+          <div class="drive-card-header">
+            <h3>TX-16 — Kerrville to Fredericksburg</h3>
+            <div class="drive-meta">
+              <span class="drive-badge">🍷 Wine Country</span>
+              <span class="drive-badge">📸 Photo Stops</span>
+            </div>
+          </div>
+          <div class="drive-card-body">
+            <p>One of the most scenic stretches of state highway in Texas. TX-16 north from Kerrville to Fredericksburg climbs through rolling hills with sweeping valley views, passing historic ranch gates and fields of wildflowers. End in Fredericksburg for world-class wine tasting, German food, and Main Street shopping — then drive back as the sun sets over the hills.</p>
+            <ul class="drive-highlights">
+              <li>Kerrville is 35 minutes from Al's Hideaway via TX-16</li>
+              <li>Fredericksburg has 50+ wineries — plan a full day</li>
+              <li>Highway 290 wine corridor connects multiple tasting rooms</li>
+              <li>Approx. 35 miles one way, 45 minutes</li>
+            </ul>
+            <span class="drive-distance">📍 35 min from Al's Hideaway</span>
+          </div>
+        </div>
+
+        <!-- Drive 4: Scenic Loop Road -->
+        <div class="drive-card">
+          <div class="drive-card-header">
+            <h3>Scenic Loop Road — Near San Antonio</h3>
+            <div class="drive-meta">
+              <span class="drive-badge">🌆 Near San Antonio</span>
+              <span class="drive-badge">🌳 Shady Canopy</span>
+            </div>
+          </div>
+          <div class="drive-card-body">
+            <p>Just outside San Antonio, Scenic Loop Road (FM 3351) and Babcock Road form a beloved local drive through the Hill Country's eastern edge. Tall canopy oaks arch over the narrow two-lane road, creating a tunnel effect that's stunning any time of year. This is the scenic drive closest to San Antonio — popular with locals on Sunday mornings. Pair it with brunch in Boerne for a perfect half-day outing.</p>
+            <ul class="drive-highlights">
+              <li>Runs through Leon Springs and Helotes near San Antonio</li>
+              <li>Beautiful oak canopy tunnel effect on FM 3351</li>
+              <li>Boerne is 20 minutes away — great for lunch and shopping</li>
+              <li>Loop is approximately 20 miles</li>
+            </ul>
+            <span class="drive-distance">📍 45 min from Al's Hideaway</span>
+          </div>
+        </div>
+
+        <!-- Drive 5: Lost Maples / RR 187 -->
+        <div class="drive-card">
+          <div class="drive-card-header">
+            <h3>RR 187 — Vanderpool &amp; Lost Maples</h3>
+            <div class="drive-meta">
+              <span class="drive-badge">🍂 Fall Color</span>
+              <span class="drive-badge">🦌 Wildlife</span>
+            </div>
+          </div>
+          <div class="drive-card-body">
+            <p>Ranch Road 187 through Vanderpool is one of Texas's best-kept secrets — and the gateway to Lost Maples State Natural Area, where bigtooth maple trees turn brilliant red and orange in late October and November. The drive itself winds through remote Hill Country with deer, turkey, and painted buntings along the roadside. This is also part of the Twisted Sisters corridor, so you can combine both in one trip.</p>
+            <ul class="drive-highlights">
+              <li>Lost Maples State Park: peak fall color late October – mid November</li>
+              <li>Reserve state park entry well in advance during fall season</li>
+              <li>Excellent wildlife viewing at dawn and dusk</li>
+              <li>Connects to RR 337 (Twisted Sisters) at Leakey</li>
+            </ul>
+            <span class="drive-distance">📍 30 min from Al's Hideaway</span>
+          </div>
+        </div>
+
+        <!-- Drive 6: Austin to Bandera via TX-16 -->
+        <div class="drive-card">
+          <div class="drive-card-header">
+            <h3>Austin to Bandera via TX-16 South</h3>
+            <div class="drive-meta">
+              <span class="drive-badge">🤠 Classic Route</span>
+              <span class="drive-badge">🛣️ Full Day Trip</span>
+            </div>
+          </div>
+          <div class="drive-card-body">
+            <p>The drive from Austin down through the Hill Country to Bandera is a classic Texas road trip in its own right. Head south on US-290 through Dripping Springs wine country, pick up TX-16 south through Kerrville, and follow it into Bandera — the "Cowboy Capital of the World." The whole route is around 2.5 hours of pure Hill Country scenery, making Al's Hideaway a natural endpoint for the drive.</p>
+            <ul class="drive-highlights">
+              <li>Dripping Springs: Hill Country wine and distillery corridor</li>
+              <li>Johnson City: LBJ Ranch and wildflower viewing</li>
+              <li>Fredericksburg: German heritage, wineries, peach stands</li>
+              <li>End the day at Al's Hideaway — your cabin is waiting</li>
+            </ul>
+            <span class="drive-distance">📍 Ends at Al's Hideaway</span>
+          </div>
+        </div>
+
+      </div><!-- end drive-grid -->
+
+      <!-- Best Time to Drive -->
+      <div style="margin-top: 60px;">
+        <h2>Best Times to Drive the Hill Country</h2>
+        <p style="max-width: 680px; margin-bottom: 8px;">Every season brings something different to these roads. Here's what to expect throughout the year.</p>
+        <div class="season-strip">
+          <div class="season-item">
+            <h4>🌸 Spring (Mar–May)</h4>
+            <p>Peak wildflower season. Bluebonnets, Indian paintbrush, and coreopsis line every road. Temperatures are mild and ideal for driving with windows down.</p>
+          </div>
+          <div class="season-item">
+            <h4>☀️ Summer (Jun–Aug)</h4>
+            <p>Hot but beautiful. Start drives early morning to beat the heat. Rivers and swimming holes along the routes make great stops.</p>
+          </div>
+          <div class="season-item">
+            <h4>🍂 Fall (Sep–Nov)</h4>
+            <p>The second wildflower season. Cooler temperatures, golden light, and fall foliage at Lost Maples in October–November.</p>
+          </div>
+          <div class="season-item">
+            <h4>❄️ Winter (Dec–Feb)</h4>
+            <p>Quiet roads, crisp air, and dramatic bare-limb views. Deer and wildlife are highly visible. Occasional ice on RR 337 — check conditions before driving.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Practical Tips -->
+      <div style="margin-top: 60px;">
+        <h2>Tips Before You Go</h2>
+        <div class="tip-box" style="margin-top: 20px;">
+          <p><strong>Gas up in Bandera or Medina</strong> — some of these routes go through remote areas with no services for 20–30 miles. Fill the tank before heading out on RR 335/336/337.</p>
+        </div>
+        <div class="tip-box">
+          <p><strong>Cell service is limited</strong> on most of these roads. Download your route in Google Maps offline before you leave, or pick up a paper map in Bandera.</p>
+        </div>
+        <div class="tip-box">
+          <p><strong>Watch for deer at dawn and dusk</strong> — especially on FM 470 and RR 187. The Hill Country has one of the highest white-tailed deer densities in North America.</p>
+        </div>
+        <div class="tip-box">
+          <p><strong>Motorcyclists:</strong> The Twisted Sisters (RR 335/336/337) are world-renowned riding roads. If you're bringing your bike, Al's Hideaway has spacious sites and secure parking. Just ask when you book.</p>
+        </div>
+      </div>
+
+      <!-- Map Section -->
+      <div style="margin-top: 60px;">
+        <h2>Find Al's Hideaway — Your Base for Hill Country Drives</h2>
+        <p style="max-width: 680px; margin-bottom: 8px;">We're located in Pipe Creek, TX — right at the intersection of FM 470 and TX-16, placing you within 10–45 minutes of every drive on this list.</p>
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.847!2d-98.9036414!3d29.6947112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c6e0c84f2f5b1%3A0x5ab8e7e7e3c2e1b0!2sAl's%20Hideaway%20Cabins%20and%20RV%20Rentals%2C%20LLC!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+            height="380"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Al's Hideaway location map">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- CTA Banner -->
+      <div class="cta-banner">
+        <h2>Make Al's Hideaway Your Road Trip Base Camp</h2>
+        <p>Wake up to Texas Hill Country mornings, hit the best scenic drives, and come home to your own private cabin. 13 cabins, RV sites, and campsites available — pets welcome, no cleaning fees.</p>
+        <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+          <a href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank" class="btn btn-secondary">Check Availability</a>
+          <a href="cabins.html" class="btn" style="background:rgba(255,255,255,0.15); color:#fff; border:1px solid rgba(255,255,255,0.4);">View All 13 Cabins</a>
+        </div>
+        <p style="margin-top:18px; font-size:0.88rem; color:rgba(255,255,255,0.7);">Use code <strong style="color:#fff;">FUN</strong> for 10% off 2+ nights when you book direct.</p>
+      </div>
+
     </div>
-  </div>
-</section>
-
-<!-- NEARBY TOWNS -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="centered">
-      <h2>Nearby Towns — Day Trips from Al's Hideaway</h2>
-      <p>You're perfectly positioned to explore the best Hill Country towns. Here's what's nearby and what to do when you get there.</p>
-    </div>
-    <div class="town-grid">
-
-      <div class="town-card">
-        <div class="town-card-header">
-          <div class="dist">~15 min drive</div>
-          <h3>Bandera, TX — Cowboy Capital of the World</h3>
-        </div>
-        <div class="town-card-body">
-          <p>Bandera is the real deal. This authentic cowboy town on the Medina River is packed with honky-tonks, dude ranches, and old-West charm.</p>
-          <ul class="town-highlights">
-            <li>Arkey Blue's Silver Dollar Saloon — legendary dancehall</li>
-            <li>Bandera Cowboy Capital Rodeo — Friday nights in summer</li>
-            <li>Medina River tubing and swimming holes</li>
-            <li>11th Street Cowboy Bar — live music nightly</li>
-            <li>B Daddy's BBQ — best BBQ in Bandera</li>
-            <li>Bandera Brewery — local craft beer in the heart of cowboy country</li>
-            <li>Kickback Corner — bar & restaurant owned by local family (a personal favorite!)</li>
-            <li>OST Restaurant — legendary chicken-fried steak</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="town-card">
-        <div class="town-card-header">
-          <div class="dist">~15 min drive</div>
-          <h3>Boerne, TX — German Hill Country Charm</h3>
-        </div>
-        <div class="town-card-body">
-          <p>Boerne (pronounced "Bernie") is a charming Hill Country town with a beautiful historic Main Street, excellent restaurants, and easy access to some of the region's top outdoor spots.</p>
-          <ul class="town-highlights">
-            <li>Historic Main Street — shops, galleries & cafes</li>
-            <li>Cibolo Nature Center — hiking & wildlife</li>
-            <li>Tower of the Americas Day Trip (via I-10)</li>
-            <li>Cascade Caverns — underground cave tours</li>
-            <li>Outstanding BBQ and German food</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="town-card">
-        <div class="town-card-header">
-          <div class="dist">~35 min drive</div>
-          <h3>Kerrville, TX — River Town & Arts Hub</h3>
-        </div>
-        <div class="town-card-body">
-          <p>Kerrville sits on the Guadalupe River and is known for its arts scene, outdoor recreation, and the famous Kerrville Folk Festival.</p>
-          <ul class="town-highlights">
-            <li>Kerrville-Schreiner State Park — camping & river swimming</li>
-            <li>Museum of Western Art</li>
-            <li>Guadalupe River kayaking & fishing</li>
-            <li>Kerrville Folk Festival (late May/early June)</li>
-            <li>Francisco Lemos Street — local dining & shopping</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="town-card">
-        <div class="town-card-header">
-          <div class="dist">~45 min drive</div>
-          <h3>San Antonio, TX — World-Class City</h3>
-        </div>
-        <div class="town-card-body">
-          <p>The ultimate day trip destination — San Antonio blends rich history, incredible food, theme parks, and the world-famous River Walk.</p>
-          <ul class="town-highlights">
-            <li>The Alamo — iconic Texas landmark</li>
-            <li>San Antonio River Walk — dining, shops, river boats</li>
-            <li>SeaWorld San Antonio & Six Flags Fiesta Texas</li>
-            <li>Pearl District — craft food & drinks</li>
-            <li>San Antonio Spurs games at Frost Bank Center</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="town-card">
-        <div class="town-card-header">
-          <div class="dist">~1 hr drive</div>
-          <h3>Fredericksburg, TX — Wine Country</h3>
-        </div>
-        <div class="town-card-body">
-          <p>Germany meets Texas wine country. Fredericksburg is famous for its Main Street boutiques, over 50 area wineries, and the National Museum of the Pacific War.</p>
-          <ul class="town-highlights">
-            <li>Texas Wine Trail — 50+ wineries on Hwy 290</li>
-            <li>National Museum of the Pacific War — world-class WWII museum</li>
-            <li>Enchanted Rock State Natural Area — must-do hike</li>
-            <li>Main Street boutiques, antiques & restaurants</li>
-            <li>Luckenbach Texas — legendary live music dance hall</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="town-card">
-        <div class="town-card-header">
-          <div class="dist">~45 min drive</div>
-          <h3>New Braunfels, TX — River Capital</h3>
-        </div>
-        <div class="town-card-body">
-          <p>New Braunfels on the Guadalupe and Comal rivers is the tubing capital of Texas — and home to Schlitterbahn, one of the world's best waterparks.</p>
-          <ul class="town-highlights">
-            <li>Schlitterbahn Waterpark — world-famous waterslides</li>
-            <li>Guadalupe River tubing & floating</li>
-            <li>Gruene Historic District — live music & Gruene Hall</li>
-            <li>Landa Park & Comal River</li>
-            <li>New Braunfels Smokehouse — legendary BBQ since 1952</li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- OUTDOOR ACTIVITIES -->
-<section class="section">
-  <div class="container">
-    <div class="centered">
-      <h2>Outdoor Adventures in the Texas Hill Country</h2>
-      <p>From river tubing to mountain biking to stargazing, the Hill Country has no shortage of ways to get outside.</p>
-    </div>
-
-    <div style="margin-top: 48px;" class="activity-section">
-      <h3 style="font-family:'Playfair Display',serif; font-size:1.5rem; color:#2d2d2d; margin-bottom:4px;">🏞️ State Parks & Hiking</h3>
-      <p style="margin-bottom:0;">Some of Texas's best state parks are within an hour of Al's Hideaway.</p>
-      <div class="activity-grid">
-        <div class="activity-item">
-          <div class="activity-icon">🌳</div>
-          <div>
-            <h3>Albert & Bessie Kronkosky State Natural Area</h3>
-            <p>A brand-new state natural area just <strong>6 minutes from Al's Hideaway</strong> — one of the most accessible state parks in Central Texas. Excellent hiking, wildlife viewing, and natural Hill Country scenery right in our backyard.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🤠</div>
-          <div>
-            <h3>Bandera State Natural Area</h3>
-            <p>Beautiful natural area near Bandera featuring scenic Hill Country trails and classic Texas landscapes. Just 15 minutes from Al's Hideaway — a quick and easy half-day trip.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">⛰️</div>
-          <div>
-            <h3>Enchanted Rock State Natural Area</h3>
-            <p>Hike to the top of this massive pink granite dome for panoramic Hill Country views. One of the most popular hikes in Texas. 1 hr from Al's Hideaway.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🍁</div>
-          <div>
-            <h3>Lost Maples State Natural Area</h3>
-            <p>Famous for stunning fall foliage and excellent hiking. The Sabinal River canyon is beautiful year-round. 45 min from Al's Hideaway.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🏕️</div>
-          <div>
-            <h3>Garner State Park</h3>
-            <p>One of Texas's most beloved parks on the Frio River — swimming, paddling, and nightly jukebox dances in summer. 1 hr from Al's Hideaway.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🦌</div>
-          <div>
-            <h3>Kerrville-Schreiner State Park</h3>
-            <p>3 miles of riverside trails, swimming, kayaking, and camping on the Guadalupe River in Kerrville. 35 min from Al's Hideaway.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="activity-section" style="margin-top:48px;">
-      <h3 style="font-family:'Playfair Display',serif; font-size:1.5rem; color:#2d2d2d; margin-bottom:4px;">🌊 Rivers & Water Fun</h3>
-      <p style="margin-bottom:0;">The Hill Country's rivers are a major draw — clear, cold, and perfect for tubing or kayaking.</p>
-      <div class="activity-grid">
-        <div class="activity-item">
-          <div class="activity-icon">🚣</div>
-          <div>
-            <h3>Guadalupe River Tubing</h3>
-            <p>The Guadalupe near Gruene and New Braunfels is the most famous tubing river in Texas. Lazy floats or exciting rapids — your call.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">💦</div>
-          <div>
-            <h3>Medina River — Bandera</h3>
-            <p>The Medina River runs right through Bandera with several swimming spots and tubing rentals. Just 20 minutes away.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🪝</div>
-          <div>
-            <h3>Fishing</h3>
-            <p>The Guadalupe River is a designated Texas Trophy Trout stream. Bass, catfish, and perch are plentiful throughout the region.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🏊</div>
-          <div>
-            <h3>Frio River — Concan</h3>
-            <p>Crystal-clear, ice-cold Frio River at Garner State Park and Concan. Perfect for swimming, tubing, and snorkeling. About 1 hr away.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="activity-section" style="margin-top:48px;">
-      <h3 style="font-family:'Playfair Display',serif; font-size:1.5rem; color:#2d2d2d; margin-bottom:4px;">🤠 Only-in-Texas Experiences</h3>
-      <div class="activity-grid">
-        <div class="activity-item">
-          <div class="activity-icon">🐎</div>
-          <div>
-            <h3>Horseback Riding</h3>
-            <p>Bandera is the "Cowboy Capital of the World" — dozens of ranches and outfitters offer guided trail rides through the Hill Country. 20 min away.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🤠</div>
-          <div>
-            <h3>Bandera Rodeo</h3>
-            <p>Watch real cowboys compete every Friday night in the summer at the Bandera Cowboy Capital Rodeo — an authentic Texas experience you won't forget.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🌌</div>
-          <div>
-            <h3>Dark Skies & Astrophotography</h3>
-            <p>Pipe Creek sits in one of the darkest sky corridors in Central Texas — far enough from San Antonio's light dome to deliver truly stunning night skies. See the Milky Way with the naked eye, or bring a camera and tripod for breathtaking astrophotography. The lack of light pollution makes Al's Hideaway a genuine destination for night sky photographers and stargazers. Clear nights here are unforgettable.</p>
-          </div>
-        </div>
-        <div class="activity-item">
-          <div class="activity-icon">🦇</div>
-          <div>
-            <h3>Bat Flight — Bracken Cave</h3>
-            <p>Watch millions of Mexican free-tailed bats emerge at dusk from Bracken Cave near San Antonio — the world's largest bat colony. 45 min away.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOD & DRINK -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="centered">
-      <h2>Food, Drink & Nightlife in the Hill Country</h2>
-      <p>Texas Hill Country is a serious food and drink destination — world-class BBQ, thriving wine country, and live music venues that define Texas culture.</p>
-    </div>
-    <div class="activity-grid" style="margin-top:40px;">
-      <div class="activity-item">
-        <div class="activity-icon">🍖</div>
-        <div>
-          <h3>Texas BBQ</h3>
-          <p>The Hill Country is prime BBQ territory. Don't miss Cooper's Old Time Pit Bar-B-Que in Llano, or <strong>B Daddy's BBQ</strong> right in Bandera — just 15 minutes from Al's Hideaway.</p>
-        </div>
-      </div>
-      <div class="activity-item">
-        <div class="activity-icon">🍷</div>
-        <div>
-          <h3>Texas Wine Trail — Hwy 290</h3>
-          <p>The "Wine Road 290" near Fredericksburg is home to 50+ wineries. Becker Vineyards, Grape Creek, and William Chris are fan favorites.</p>
-        </div>
-      </div>
-      <div class="activity-item">
-        <div class="activity-icon">🥃</div>
-        <div>
-          <h3>Distilleries & Breweries</h3>
-          <p>Garrison Brothers Distillery in Hye makes award-winning bourbon. Altstadt Brewery in Fredericksburg brews authentic German-style lagers.</p>
-        </div>
-      </div>
-      <div class="activity-item">
-        <div class="activity-icon">🎵</div>
-        <div>
-          <h3>Live Music</h3>
-          <p>The Hill Country is overflowing with legendary live music. Just minutes away: <strong>Floore's Country Store</strong> (where Willie Nelson got his start), <strong>Bandera Brewery</strong> with local craft beer and live acts, and <strong>Kickback Corner</strong> — a fantastic bar and restaurant in Bandera. Farther out: Luckenbach Texas, Gruene Hall, and 11th Street Cowboy Bar. Authentic Texas country and honky-tonk any night of the week.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="tip-box">
-      <p>🍳 <strong>Pro tip:</strong> Book a cabin with a full kitchen (Cabins 10–12 or MeMaw's) and pick up fresh produce, local honey, and Hill Country peaches at the roadside stands along Hwy 16. A home-cooked meal under the porch stars is one of the best things you can do in the Hill Country.</p>
-    </div>
-    <div class="tip-box" style="margin-top:16px; border-left-color: var(--rust);">
-      <p>📷 <strong>Photographers take note:</strong> Pipe Creek's dark skies make Al's Hideaway a fantastic base for astrophotography. Step away from the cabin lights, point your camera up, and you'll have shots of the Milky Way that are nearly impossible to get anywhere near a city.</p>
-    </div>
-  </div>
-</section>
-
-<!-- BEST TIME TO VISIT -->
-<section class="section">
-  <div class="container centered">
-    <h2>When to Visit the Texas Hill Country</h2>
-    <p>The Hill Country is beautiful year-round. Here's what to expect in each season.</p>
-    <div class="season-grid">
-      <div class="season-card">
-        <h3>🌸 Spring (Mar–May)</h3>
-        <p>Peak wildflower season — bluebonnets blanket the roadsides. Mild temperatures, great for hiking, and ideal river conditions. Texas's most popular travel season.</p>
-      </div>
-      <div class="season-card">
-        <h3>☀️ Summer (Jun–Aug)</h3>
-        <p>Hot days (90–100°F) mean the rivers are packed. Tubing, swimming, and late-night outdoor concerts are the name of the game. Book early — weekends fill up fast.</p>
-      </div>
-      <div class="season-card">
-        <h3>🍂 Fall (Sep–Nov)</h3>
-        <p>The absolute best weather for exploring. Lost Maples turns brilliant red and gold in November. Harvest festivals, wine events, and cooler temps for hiking.</p>
-      </div>
-      <div class="season-card">
-        <h3>❄️ Winter (Dec–Feb)</h3>
-        <p>A peaceful and underrated time to visit. Fewer crowds, cozy cabins, and crisp air for hiking. Christmas lights in Boerne and Fredericksburg are spectacular.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta-banner">
-  <div class="container">
-    <h2>Make Al's Hideaway Your Hill Country Home Base</h2>
-    <p>Stay in Pipe Creek and you're perfectly placed to explore it all — Bandera, Boerne, San Antonio, the rivers, the wineries, the rodeos. Pack your bags and we'll take care of the rest.</p>
-    <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
-      <a class="btn" style="background:white; color:var(--green-dark); font-weight:700; padding:16px 36px; font-size:1.05rem;" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a>
-      <a class="btn btn-secondary" href="cabins.html">Browse All Cabins</a>
-    </div>
-    <p class="cta-sub">13 cabins · 10 RV sites · 9 campsites · No cleaning fees · No pet fees · Book direct & save 10%</p>
-  </div>
-</section>
+  </section>
 
 </main>
-<!-- FOOTER -->
+
+<!-- Footer -->
 <footer>
-  <div class="footer-inner">
-    <div>
-      <div class="footer-brand">Al's Hideaway</div>
-      <p class="footer-tagline">Cabins, RV Sites & Campsites in the Texas Hill Country. Come as a visitor, leave as family.</p>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Al's Hideaway</h4>
+        <p style="font-size:0.88rem; color:var(--muted); line-height:1.6;">Award-winning cabins, RV sites &amp; campsites in Pipe Creek, TX. Your Texas Hill Country base camp.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Stay</h4>
+        <ul>
+          <li><a href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a></li>
+          <li><a href="cabins.html">All 13 Cabins</a></li>
+          <li><a href="rv-camping.html">RV Sites &amp; Camping</a></li>
+          <li><a href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/map?tabID=9&amp;mapID=2" target="_blank">Campground Map</a></li>
+          <li><a href="faq.html">Policies &amp; FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="hill-country-guide.html">Texas Hill Country Guide</a></li>
+          <li><a href="scenic-drives.html">Scenic Drives</a></li>
+          <li><a href="events.html">Weddings &amp; Celebrations</a></li>
+          <li><a href="faq.html">Policies &amp; FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:8305103331">📞 830-510-3331</a></li>
+          <li><a href="mailto:alshideawayrentals@gmail.com">✉️ Email Us</a></li>
+          <li><a href="https://maps.google.com/?q=299+Willow+Springs+Drive+Pipe+Creek+Texas+78063" target="_blank">📍 299 Willow Springs Dr<br>Pipe Creek, TX 78063</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="footer-col">
-      <p class="footer-col-heading">Stay</p>
-      <ul>
-        <li><a href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a></li>
-        <li><a href="cabins.html">All 13 Cabins</a></li>
-        <li><a href="rv-camping.html">RV Sites & Camping</a></li>
-        <li><a href="faq.html">Policies & FAQ</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <p class="footer-col-heading">Explore</p>
-      <ul>
-        <li><a href="hill-country-guide.html">Texas Hill Country Guide</a></li>
-        <li><a href="scenic-drives.html">Scenic Drives</a></li>
-        <li><a href="events.html">Weddings & Celebrations</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <p class="footer-col-heading">Contact</p>
-      <ul>
-        <li><a href="tel:8305103331">📞 830-510-3331</a></li>
-        <li><a href="mailto:alshideawayrentals@gmail.com">✉️ Email Us</a></li>
-        <li><a href="https://maps.google.com/?q=299+Willow+Springs+Drive+Pipe+Creek+Texas+78063" target="_blank">📍 299 Willow Springs Dr<br>Pipe Creek, TX 78063</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2026 Al's Hideaway · staytexashillcountry.com · All rights reserved.</span>
-    <div class="social-links">
-      <a href="https://facebook.com/Alshideawaycabinandrvrentals/" target="_blank">Facebook</a>
-      <a href="https://instagram.com/alshideaway/" target="_blank">Instagram</a>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Al's Hideaway Cabin and RV Rentals, LLC. All rights reserved.</p>
+      <div class="footer-social">
+        <a href="https://facebook.com/Alshideawaycabinandrvrentals/" target="_blank">Facebook</a>
+        <a href="https://instagram.com/alshideaway/" target="_blank">Instagram</a>
+      </div>
     </div>
   </div>
 </footer>
 
 
 <!-- ── AL'S HIDEAWAY AI CONCIERGE WIDGET ── -->
-<div id="ah-chat-bubble" onclick="ahToggleChat()" title="Chat with our AI concierge" aria-label="Open chat">
+<button id="ah-chat-bubble" onclick="ahToggleChat()" title="Chat with our AI concierge" aria-label="Open chat">
   <svg id="ah-chat-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="26" height="26"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l4.93-1.37A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm-1 13H7v-2h4v2zm6 0h-4v-2h4v2zm0-4H7V9h10v2z"/></svg>
   <svg id="ah-close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="26" height="26" style="display:none"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-</div>
+</button>
 
 <div id="ah-chat-panel">
   <div id="ah-chat-header">
@@ -548,7 +541,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <style>
-#ah-chat-bubble {
+#ah-chat-bubble { border: none; cursor: pointer; 
   position: fixed; bottom: 24px; right: 24px; z-index: 9999;
   width: 58px; height: 58px; border-radius: 50%;
   background: #3a6b3a; box-shadow: 0 4px 20px rgba(0,0,0,0.25);
@@ -644,7 +637,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 @media (max-width: 420px) {
   #ah-chat-panel { width: calc(100vw - 32px); right: 16px; bottom: 88px; }
-  #ah-chat-bubble { right: 16px; bottom: 16px; }
+  #ah-chat-bubble { border: none; cursor: pointer;  right: 16px; bottom: 16px; }
 }
 </style>
 
