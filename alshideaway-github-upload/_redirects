@@ -1,0 +1,26 @@
+# Al's Hideaway — Netlify Domain Redirects
+#
+# PURPOSE: Make alshideaway.com redirect to staytexashillcountry.com (or vice versa)
+# so both domains land on the same site.
+#
+# HOW TO USE THIS:
+# This file handles path-based redirects. For DOMAIN-level redirects
+# (alshideaway.com → staytexashillcountry.com), you must also follow
+# the steps in DOMAIN-SETUP.md to configure domains in your Netlify dashboard.
+#
+# Once both domains are connected in Netlify and staytexashillcountry.com
+# is set as the PRIMARY domain, Netlify automatically 301-redirects
+# alshideaway.com to staytexashillcountry.com — no code needed.
+#
+# These rules below handle legacy URL redirects (old Duda/Resnexus site pages):
+
+/travel-guide          /hill-country-guide.html     301
+/event-venue           /events.html                  301
+/gallery               /index.html                   301
+/blog                  /hill-country-guide.html      301
+/policies              /faq.html                     301
+/cabins                /cabins.html                  301
+/rv                    /rv-camping.html               301
+/camping               /rv-camping.html               301
+/contact               /contact.html                  301
+/about                 /index.html                    301
