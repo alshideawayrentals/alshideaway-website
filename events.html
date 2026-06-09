@@ -10,25 +10,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Texas Hill Country Cabin Rentals | 13 Log Cabins Near Bandera TX | Al's Hideaway</title>
-  <meta name="description" content="Browse all 13 handcrafted log cabins at Al's Hideaway in Pipe Creek, TX. Pet-friendly, no cleaning fees, no pet fees. Book direct and save 10%. Near Bandera, Boerne & San Antonio." />
-  <link rel="canonical" href="https://www.staytexashillcountry.com/cabins.html" />
-  <meta property="og:title" content="Texas Hill Country Cabin Rentals | Al's Hideaway" />
-  <meta property="og:description" content="13 pet-friendly log cabins in Pipe Creek TX — from cozy king-bed retreats to full-kitchen one-bedrooms. No cleaning fees, no pet fees. Book direct & save 10%." />
-  <meta property="og:url" content="https://www.staytexashillcountry.com/cabins.html" />
+  <title>Wedding Venue & Event Rentals Texas Hill Country | Al's Hideaway | Pipe Creek TX</title>
+  <meta name="description" content="Host your wedding, family reunion, or corporate retreat at Al's Hideaway in Pipe Creek, TX. Exclusive park rentals — all cabins, RV sites, pavilion, pool, and 20 acres. Near Bandera & San Antonio." />
+  <link rel="canonical" href="https://www.staytexashillcountry.com/events.html" />
+  <meta property="og:title" content="Wedding Venue & Event Rentals | Al's Hideaway Texas Hill Country" />
+  <meta property="og:description" content="Exclusive park rentals for weddings, reunions, and corporate retreats in Pipe Creek, TX. 13 cabins, 10 RV sites, outdoor pavilion, pool, and 20 scenic Hill Country acres." />
+  <meta property="og:url" content="https://www.staytexashillcountry.com/events.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/Front+of+cabins-908w.jpeg" />
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Al's Hideaway Cabin Rentals",
-    "description": "13 handcrafted log cabins for rent in the Texas Hill Country near Bandera, TX",
-    "url": "https://www.staytexashillcountry.com/cabins.html",
-    "numberOfItems": 13
-  }
-  </script>
+  <meta property="og:image" content="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/park+rental+options+2-908w.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,31 +27,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="styles.css" />
   <style>
     .page-hero {
-      --hero-bg: url('images/cabins-exterior.webp');
       background:
-        linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
-        url('images/cabins-exterior.webp') center/cover no-repeat;
+        linear-gradient(to bottom, rgba(10,30,10,0.60) 0%, rgba(10,30,10,0.50) 100%),
+        url('https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/park+rental+options+2-908w.png') center/cover no-repeat;
     }
-    .amenity-list { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
-    .amenity-list li { background: var(--tan); color: var(--green-dark); font-size: 0.75rem; font-weight: 600; padding: 4px 12px; border-radius: 100px; }
-    .filter-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 36px; justify-content: center; }
-    .filter-btn { padding: 8px 20px; border-radius: 100px; border: 2px solid var(--green); background: transparent; color: var(--green); font-weight: 600; font-size: 0.85rem; cursor: pointer; transition: all 0.2s; font-family: 'Inter', sans-serif; }
-    .filter-btn:hover, .filter-btn.active { background: var(--green); color: #fff; }
-    .cabin-card[data-hidden="true"] { display: none; }
-    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-top: 40px; }
-    .why-item { text-align: center; padding: 28px 20px; background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); }
-    .why-icon { font-size: 2.2rem; margin-bottom: 12px; }
-    .why-item h3 { color: #2d2d2d; margin-bottom: 6px; }
-    .why-item p { font-size: 0.87rem; }
+    .package-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 40px; }
+    @media(max-width: 660px) { .package-grid { grid-template-columns: 1fr; } }
+    .package-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+    .package-header { padding: 28px 28px 20px; }
+    .package-header h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: #2d2d2d; margin-bottom: 8px; }
+    .package-header .subtitle { color: var(--muted); font-size: 0.9rem; }
+    .package-body { padding: 0 28px 28px; }
+    .package-features { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+    .package-features li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; color: #2d2d2d; }
+    .package-features li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+    .package-divider { height: 1px; background: #eee; margin: 0 28px 24px; }
+    .venue-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 20px; margin-top: 40px; }
+    .venue-feature { background: #fff; border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+    .venue-feature .icon { font-size: 2rem; margin-bottom: 12px; }
+    .venue-feature h3 { color: #2d2d2d; margin-bottom: 6px; }
+    .venue-feature p { font-size: 0.87rem; }
+    .event-types { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; justify-content: center; }
+    .event-type-chip { background: #fff; border: 2px solid var(--green); color: var(--green); font-weight: 600; font-size: 0.88rem; padding: 8px 20px; border-radius: 100px; }
   </style>
-  <link rel="preload" as="image" href="images/cabins-exterior.webp" fetchpriority="high" />
-<style>
-  .skip-nav { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
-  .skip-nav:focus { position: fixed; top: 0; left: 0; width: auto; height: auto; padding: 12px 24px; background: var(--green-dark, #2c5230); color: #fff; font-weight: 700; font-size: 1rem; z-index: 9999; border-radius: 0 0 8px 0; text-decoration: none; }
-</style>
+  <link rel="preload" as="image" href="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/park+rental+options+2-908w.png" fetchpriority="high" />
 </head>
 <body>
-<a href="#main-content" class="skip-nav">Skip to main content</a>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXBLKHVD"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -76,294 +66,160 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links">
-      <li><a href="cabins.html" class="active">Cabins</a></li>
+      <li><a href="cabins.html">Cabins</a></li>
       <li><a href="rv-camping.html">RV & Camping</a></li>
-      <li><a href="events.html">Events & Venue</a></li>
+      <li><a href="events.html" class="active">Events & Venue</a></li>
       <li><a href="hill-country-guide.html">Area Guide</a></li>
       <li><a href="scenic-drives.html">Scenic Drives</a></li>
       <li><a href="faq.html">FAQ</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <a class="nav-cta" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a>
+    <a class="nav-cta" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=10" target="_blank">Check Event Availability</a>
   </div>
 </nav>
 
 <main>
 <!-- BREADCRUMB -->
 <div class="breadcrumb container">
-  <a href="index.html">Home</a> <span>&nbsp;›&nbsp; Cabin Rentals</span>
+  <a href="index.html">Home</a> <span>&nbsp;›&nbsp; Events & Venue</span>
 </div>
 
 <!-- HERO -->
 <section class="page-hero">
-  <div class="hero-badge">Pipe Creek, Texas · Near Bandera</div>
-  <h1>Texas Hill Country Cabin Rentals</h1>
-  <p>13 handcrafted log cabins on 20 scenic acres — pet-friendly, no cleaning fees, no pet fees. Book direct and save.</p>
-  <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability & Book</a>
+  <div class="hero-badge">Pipe Creek, TX · Texas Hill Country</div>
+  <h1>Weddings, Reunions & Private Events</h1>
+  <p>Rent the entire property — all 13 cabins, 10 RV sites, the pavilion, pool, outdoor kitchen, and 20 stunning acres of Texas Hill Country.</p>
+  <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=10" target="_blank">Check Event Availability</a>
 </section>
-
-<!-- PROMO BAR -->
-<div class="promo-bar">
-  🎉 Book 2+ Nights Online & Save 10% — Use Promo Code <span class="promo-code">FUN</span> at Checkout
-</div>
 
 <!-- TRUST BAR -->
 <div class="trust-bar">
   <div class="trust-inner">
     <div class="trust-item"><span class="icon">⭐</span> 4.9 Stars · 555+ Google Reviews</div>
-    <div class="trust-item"><span class="icon">🐾</span> Pets Always Free</div>
-    <div class="trust-item"><span class="icon">🧹</span> No Cleaning Fees</div>
     <div class="trust-item"><span class="icon">🏆</span> TACO Accommodations of the Year 2024</div>
+    <div class="trust-item"><span class="icon">👨‍👩‍👧</span> On-Site Owners</div>
+    <div class="trust-item"><span class="icon">🐾</span> Pet-Friendly · Always Free</div>
   </div>
 </div>
 
-<!-- WHY BOOK DIRECT -->
-<section class="section section-alt">
-  <div class="container centered">
-    <h2>Why Book Direct at Al's Hideaway?</h2>
-    <p>Skip the booking platforms and save. When you book directly through us, you keep more money and get better service.</p>
-    <div class="why-grid">
-      <div class="why-item"><div class="why-icon">💰</div><h3>Best Price Guaranteed</h3><p>Use code <strong>FUN</strong> for 10% off 2+ nights. No platform markup, no surprises.</p></div>
-      <div class="why-item"><div class="why-icon">🧹</div><h3>No Cleaning Fees</h3><p>What you see is what you pay. We never tack on cleaning fees at checkout.</p></div>
-      <div class="why-item"><div class="why-icon">🐾</div><h3>No Pet Fees</h3><p>Bring your dogs. Bring two. We've never charged a pet fee and never will.</p></div>
-      <div class="why-item"><div class="why-icon">👨‍👩‍👧</div><h3>On-Site Owners</h3><p>Gordon & Jennifer live on the property. Real help from real people — no call centers.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- CABINS -->
+<!-- INTRO -->
 <section class="section">
   <div class="container">
-    <div class="cabin-section-intro">
-      <h2>Choose Your Cabin — All 13 Available to Book Direct</h2>
-      <p style="color:var(--muted); max-width:640px; margin:0 auto 32px;">Filter by sleeping arrangement or browse them all. Each cabin is handcrafted and unique — click any card to reserve your exact dates.</p>
-    </div>
-
-    <!-- FILTER BAR -->
-    <div class="filter-bar">
-      <button class="filter-btn active" onclick="filterCabins('all', this)">All Cabins</button>
-      <button class="filter-btn" onclick="filterCabins('king', this)">King Bed</button>
-      <button class="filter-btn" onclick="filterCabins('queen', this)">Queen Bed</button>
-      <button class="filter-btn" onclick="filterCabins('kitchen', this)">Full Kitchen</button>
-    </div>
-
-    <div class="cabin-grid">
-
-      <!-- Cabin 1 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin1.webp" alt="Cabin #1 at Al's Hideaway — cozy king bed retreat with Texas flag headboard" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Kitchenette · Private Bath</span>
-          <h3>Cabin #1 — Hill Country Sanctuary</h3>
-          <p>A cozy king-bed retreat with private bath and kitchenette. The perfect couple's getaway in the heart of the Hill Country.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Kitchenette</li><li>Private Bath</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=1" target="_blank">Book Cabin #1</a>
+    <div class="two-col">
+      <div>
+        <h2>The Perfect Texas Hill Country Venue</h2>
+        <p style="margin-bottom:14px;">When you rent Al's Hideaway for your event, you get exclusive access to the entire property — no shared spaces, no strangers wandering through your wedding. Just your group, 20 private acres, and everything we've built here.</p>
+        <p style="margin-bottom:14px;">The event pavilion features an outdoor kitchen, a beautiful stone fireplace, and a big-screen TV. Surround it with the pool, the campfire area, the walking trails, and 13 cabins sleeping your guests — and you've got a setting that no hotel ballroom can touch.</p>
+        <p style="margin-bottom:28px;">Gordon and Jennifer are on-site the entire time. You're not dealing with a venue coordinator who shows up an hour before — you're dealing with the people who built this place and genuinely care that your event is perfect.</p>
+        <div class="event-types">
+          <span class="event-type-chip">💍 Weddings</span>
+          <span class="event-type-chip">👨‍👩‍👧‍👦 Family Reunions</span>
+          <span class="event-type-chip">🎂 Milestone Birthdays</span>
+          <span class="event-type-chip">💼 Corporate Retreats</span>
+          <span class="event-type-chip">🎓 Graduation Parties</span>
+          <span class="event-type-chip">🏕️ Group Getaways</span>
         </div>
       </div>
-
-      <!-- Cabin 2 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin2.webp" alt="Cabin #2 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
-          <h3>Cabin #2 — Family-Friendly Cabin</h3>
-          <p>King bed plus two leather chairs that pull out into twin beds — ideal for families or groups of up to 4.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=4" target="_blank">Book Cabin #2</a>
-        </div>
-      </div>
-
-      <!-- Cabin 3 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin3.webp" alt="Cabin #3 at Al's Hideaway — log cabin exterior with yellow porch chairs" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
-          <h3>Cabin #3 — King Cabin Near Bandera</h3>
-          <p>King bed and two leather chairs that convert to twin beds. Warm, comfortable, and just minutes from Bandera.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=3" target="_blank">Book Cabin #3</a>
-        </div>
-      </div>
-
-      <!-- Cabin 4 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin4.webp" alt="Cabin #4 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
-          <h3>Cabin #4 — Cozy King Cabin</h3>
-          <p>King-size bed plus a full futon for extra sleeping space. A peaceful Hill Country retreat designed for total relaxation.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=2" target="_blank">Book Cabin #4</a>
-        </div>
-      </div>
-
-      <!-- Cabin 5 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin5.webp" alt="Cabin #5 at Al's Hideaway — log cabin with covered porch and yellow chairs" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
-          <h3>Cabin #5 — King Cabin with Futon</h3>
-          <p>King bed and a full-size futon — flexible sleeping for couples, friends, or small families exploring Hill Country.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=5" target="_blank">Book Cabin #5</a>
-        </div>
-      </div>
-
-      <!-- Cabin 6 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin6.webp" alt="Cabin #6 at Al's Hideaway — log cabin exterior with covered porch and picnic table" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
-          <h3>Cabin #6 — Hill Country Charm</h3>
-          <p>King bed and full-size futon with classic Hill Country character. A favorite for couples and small families alike.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=6" target="_blank">Book Cabin #6</a>
-        </div>
-      </div>
-
-      <!-- Cabin 7 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin7.webp" alt="Cabin #7 at Al's Hideaway — log cabin with wide covered porch and ramp" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Leather Sofa · Sleeps 3</span>
-          <h3>Cabin #7 — Relaxing Hill Country Vibe</h3>
-          <p>King bed and leather sofa. A warm, inviting space perfect for unwinding after a day of riding or exploring.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Leather Sofa</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=10" target="_blank">Book Cabin #7</a>
-        </div>
-      </div>
-
-      <!-- Cabin 8 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin8.webp" alt="Cabin #8 at Al's Hideaway — bedroom with cowhide wall decor and Texas star door" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
-          <h3>Cabin #8 — King Cabin with Pull-Out Chairs</h3>
-          <p>King bed plus two leather chairs that convert to twin beds — great for couples and small families.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=19" target="_blank">Book Cabin #8</a>
-        </div>
-      </div>
-
-      <!-- Cabin 9 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin9.webp" alt="Cabin #9 at Al's Hideaway — log cabin exterior with warm evening porch lights" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Sleeper Chairs · Sleeps 4</span>
-          <h3>Cabin #9 — Flexible Layout</h3>
-          <p>King bed and leather sleeper chairs — one of our most flexible setups for couples, friends, or small families.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Sleeper Chairs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=43" target="_blank">Book Cabin #9</a>
-        </div>
-      </div>
-
-      <!-- Cabin 10 -->
-      <div class="cabin-card" data-type="queen kitchen">
-        <img src="images/cabin10.webp" alt="Cabin #10 at Al's Hideaway — cabin exterior with yellow Adirondack chairs on porch" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">Queen Bed · Sleeper Sofa · Full Kitchen · Sleeps 4</span>
-          <h3>Cabin #10 — One-Bedroom with Full Kitchen</h3>
-          <p>Queen bed, sleeper sofa, and a fully equipped kitchen — perfect for longer stays or guests who love to cook.</p>
-          <ul class="amenity-list">
-            <li>Queen Bed</li><li>Sleeper Sofa</li><li>Full Kitchen</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=42" target="_blank">Book Cabin #10</a>
-        </div>
-      </div>
-
-      <!-- Cabin 11 -->
-      <div class="cabin-card" data-type="queen kitchen">
-        <img src="images/cabin11.webp" alt="Cabin #11 at Al's Hideaway — full kitchen with stainless steel appliances" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">Queen Bed · Full Kitchen · Sleeps 2</span>
-          <h3>Cabin #11 — Cozy One-Bedroom with Kitchen</h3>
-          <p>Charming one-bedroom cabin with queen bed and full kitchen. Comfortable, flexible, and perfect for a Hill Country retreat.</p>
-          <ul class="amenity-list">
-            <li>Queen Bed</li><li>Full Kitchen</li><li>Sleeps 2</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=47" target="_blank">Book Cabin #11</a>
-        </div>
-      </div>
-
-      <!-- Cabin 12 -->
-      <div class="cabin-card" data-type="queen kitchen">
-        <img src="images/cabin12.webp" alt="Cabin #12 at Al's Hideaway — log cabin exterior with covered porch" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">Queen Bed · Full Kitchen · Living Room · Sleeps 2</span>
-          <h3>Cabin #12 — One-Bedroom with Kitchen</h3>
-          <p>Warm queen bedroom, full kitchen, and spacious living room — a great choice for couples or small families.</p>
-          <ul class="amenity-list">
-            <li>Queen Bed</li><li>Full Kitchen</li><li>Living Room</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=48" target="_blank">Book Cabin #12</a>
-        </div>
-      </div>
-
-      <!-- MeMaw's -->
-      <div class="cabin-card" data-type="queen kitchen">
-        <img src="images/memaws.webp" alt="MeMaw's Cabin at Al's Hideaway — surrounded by trees with private fenced yard" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag cabin-tag-featured">⭐ Guest Favorite · Fenced Yard</span>
-          <h3>MeMaw's Cabin — Family & Pet Favorite</h3>
-          <p>Queen bed, full kitchen, spacious living area, and a private fenced yard. The most-loved cabin at Al's Hideaway — perfect for families and pet owners.</p>
-          <ul class="amenity-list">
-            <li>Queen Bed</li><li>Full Kitchen</li><li>Fenced Yard</li><li>Living Room</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=773" target="_blank">Book MeMaw's Cabin</a>
-        </div>
-      </div>
-
-    </div><!-- /cabin-grid -->
-
-    <div style="text-align:center; margin-top:44px;">
-      <a class="btn btn-outline" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/map?tabID=9&mapID=2" target="_blank">View Full Campground Map</a>
+      <img src="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/park+rental+options+2-908w.png" alt="Event pavilion and park rental setup at Al's Hideaway Texas Hill Country" loading="lazy" />
     </div>
   </div>
 </section>
 
-<!-- AMENITIES INCLUDED -->
+<!-- PACKAGES -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="centered">
+      <h2>Event Rental Packages</h2>
+      <p>Two options to fit your group size and event style. Check availability online or call us to discuss a custom package.</p>
+    </div>
+    <div class="package-grid">
+
+      <div class="package-card">
+        <div class="package-header">
+          <h3>12-Hour Venue Rental</h3>
+          <p class="subtitle">Perfect for day events, receptions, and celebrations</p>
+        </div>
+        <div class="package-divider"></div>
+        <div class="package-body">
+          <ul class="package-features">
+            <li>Exclusive access to the event pavilion</li>
+            <li>Outdoor kitchen with grill and prep area</li>
+            <li>Stone fireplace and big-screen TV</li>
+            <li>Swimming pool access for your group</li>
+            <li>Campfire area setup</li>
+            <li>Outdoor games — horseshoes, disc golf (2 nets), bean bag toss</li>
+            <li>Restrooms and changing facilities</li>
+            <li>Parking for your guests</li>
+            <li>On-site owners available throughout</li>
+          </ul>
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=10" target="_blank">Check 12-Hour Availability</a>
+        </div>
+      </div>
+
+      <div class="package-card" style="border: 2px solid var(--green);">
+        <div class="package-header" style="background: var(--tan);">
+          <span class="cabin-tag cabin-tag-featured" style="margin-bottom:12px; display:inline-block;">⭐ Most Popular</span>
+          <h3>Full 2-Day Park Rental</h3>
+          <p class="subtitle">The complete Al's Hideaway experience — exclusively yours</p>
+        </div>
+        <div class="package-divider"></div>
+        <div class="package-body">
+          <ul class="package-features">
+            <li>Exclusive access to the <strong>entire property</strong></li>
+            <li>All 13 cabins for your guests to stay in</li>
+            <li>10 RV sites for guests with rigs</li>
+            <li>Cowboy campsites for the adventurous</li>
+            <li>Event pavilion with outdoor kitchen & fireplace</li>
+            <li>Swimming pool — exclusively yours</li>
+            <li>20 acres of scenic Hill Country grounds</li>
+            <li>Walking trails and open space</li>
+            <li>MeMaw's Store available for your group</li>
+            <li>On-site owners throughout your stay</li>
+          </ul>
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=10" target="_blank">Check Full Rental Availability</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- VENUE FEATURES -->
+<section class="section">
+  <div class="container centered">
+    <h2>What Makes Al's Hideaway a Great Venue</h2>
+    <p>It's more than a venue — it's an experience your guests will talk about for years.</p>
+    <div class="venue-feature-grid">
+      <div class="venue-feature"><div class="icon">🏟️</div><h3>Outdoor Pavilion</h3><p>Spacious covered pavilion with outdoor kitchen, stone fireplace, big-screen TV, and room for your whole group.</p></div>
+      <div class="venue-feature"><div class="icon">🏊</div><h3>Swimming Pool</h3><p>Private use of the pool for your group — a huge hit for summer weddings and family reunions.</p></div>
+      <div class="venue-feature"><div class="icon">🌅</div><h3>Scenic 20 Acres</h3><p>Rolling Hill Country terrain, massive live oaks, and beautiful natural backdrops for photos.</p></div>
+      <div class="venue-feature"><div class="icon">🛏️</div><h3>13 On-Site Cabins</h3><p>Sleep your guests on-site — no shuttling anyone to a hotel. The party doesn't have to end.</p></div>
+      <div class="venue-feature"><div class="icon">🐾</div><h3>Pets Welcome</h3><p>Bring your dogs to your own wedding. Many venues won't allow it — we encourage it.</p></div>
+      <div class="venue-feature"><div class="icon">👨‍👩‍👧</div><h3>Owners On-Site</h3><p>Gordon and Jennifer live here. You'll have real, responsive people to call if anything comes up.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
 <section class="section section-alt">
   <div class="container centered">
-    <h2>What's Included in Every Cabin Stay</h2>
-    <p>All cabins come fully equipped. Just pack your bags — we take care of the rest.</p>
-    <div class="highlights">
-      <div class="highlight-item"><div class="highlight-icon">🛏️</div><h3>Quality Bedding</h3><p>Fresh linens and pillows provided for every stay.</p></div>
-      <div class="highlight-item"><div class="highlight-icon">❄️</div><h3>A/C & Heat</h3><p>Climate control in every cabin, year-round comfort.</p></div>
-      <div class="highlight-item"><div class="highlight-icon">📶</div><h3>Free WiFi</h3><p>Stay connected or finally unplug — your choice.</p></div>
-      <div class="highlight-item"><div class="highlight-icon">🪑</div><h3>Covered Porch</h3><p>Every cabin has a porch with seating — perfect for morning coffee.</p></div>
-      <div class="highlight-item"><div class="highlight-icon">🏊</div><h3>Pool Access</h3><p>Enjoy the on-site swimming pool during your stay.</p></div>
-      <div class="highlight-item"><div class="highlight-icon">🔥</div><h3>Campfire Area</h3><p>Gather around the fire and enjoy the Hill Country night sky.</p></div>
+    <h2>What Event Guests Are Saying</h2>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"We had a group of 13 for an anniversary celebration and had such a great time we decided to come back next year. Jennifer was hands-on the entire time. The amount of things to do was amazing — 10/10."</p>
+        <div class="reviewer">Shelly Davis <span>· Google Review</span></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Our family reunion was absolutely perfect. Having the whole property to ourselves meant the kids could roam free, the adults could relax, and everyone stayed on-site. We're already planning next year's."</p>
+        <div class="reviewer">Marcus T. <span>· Google Review</span></div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"The best venue decision we ever made. No stuffy ballroom — just beautiful land, a gorgeous pavilion, and people who actually cared about making our day special. Jennifer was incredible from start to finish."</p>
+        <div class="reviewer">Brittany K. <span>· Google Review</span></div>
+      </div>
     </div>
   </div>
 </section>
@@ -371,13 +227,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- CTA -->
 <section class="cta-banner">
   <div class="container">
-    <h2>Ready to Reserve Your Cabin?</h2>
-    <p>Cabins fill up fast on weekends and holidays. Book direct to get the best price with no hidden fees.</p>
-    <a class="btn" style="background:white; color:var(--green-dark); font-weight:700; padding:16px 44px; font-size:1.05rem;" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability Now</a>
-    <div class="cta-promo">
-      <span>🎉 Use promo code <span style="background:rgba(0,0,0,0.25); padding:2px 10px; border-radius:4px;">FUN</span> when booking 2+ nights online to save 10%</span>
+    <h2>Let's Make Your Event Unforgettable</h2>
+    <p>Check availability online or give us a call to talk through your event. We're happy to answer questions and help you plan.</p>
+    <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+      <a class="btn" style="background:white; color:var(--green-dark); font-weight:700; padding:16px 36px; font-size:1.05rem;" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=10" target="_blank">Check Event Availability</a>
+      <a class="btn btn-secondary" href="contact.html">Contact Us Directly</a>
     </div>
-    <p class="cta-sub">No cleaning fees · No pet fees · No resort fees · Best price when you book direct</p>
+    <p class="cta-sub">299 Willow Springs Drive · Pipe Creek, TX 78063 · 830-510-3331</p>
   </div>
 </section>
 
@@ -395,7 +251,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a></li>
         <li><a href="cabins.html">All 13 Cabins</a></li>
         <li><a href="rv-camping.html">RV Sites & Camping</a></li>
-        <li><a href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/map?tabID=9&mapID=2" target="_blank">Campground Map</a></li>
         <li><a href="faq.html">Policies & FAQ</a></li>
       </ul>
     </div>
@@ -405,7 +260,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="hill-country-guide.html">Texas Hill Country Guide</a></li>
         <li><a href="scenic-drives.html">Scenic Drives</a></li>
         <li><a href="events.html">Weddings & Celebrations</a></li>
-        <li><a href="faq.html">Policies & FAQ</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </div>
@@ -427,27 +281,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </footer>
 
-<script>
-function filterCabins(type, btn) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  document.querySelectorAll('.cabin-card').forEach(card => {
-    if (type === 'all') {
-      card.removeAttribute('data-hidden');
-    } else {
-      const types = (card.dataset.type || '').split(' ');
-      card.dataset.hidden = types.includes(type) ? 'false' : 'true';
-    }
-  });
-}
-</script>
-
 
 <!-- ── AL'S HIDEAWAY AI CONCIERGE WIDGET ── -->
-<button id="ah-chat-bubble" onclick="ahToggleChat()" title="Chat with our AI concierge" aria-label="Open chat">
+<div id="ah-chat-bubble" onclick="ahToggleChat()" title="Chat with our AI concierge" aria-label="Open chat">
   <svg id="ah-chat-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="26" height="26"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l4.93-1.37A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm-1 13H7v-2h4v2zm6 0h-4v-2h4v2zm0-4H7V9h10v2z"/></svg>
   <svg id="ah-close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="26" height="26" style="display:none"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-</button>
+</div>
 
 <div id="ah-chat-panel">
   <div id="ah-chat-header">
@@ -480,7 +319,7 @@ function filterCabins(type, btn) {
 </div>
 
 <style>
-#ah-chat-bubble { border: none; cursor: pointer; 
+#ah-chat-bubble {
   position: fixed; bottom: 24px; right: 24px; z-index: 9999;
   width: 58px; height: 58px; border-radius: 50%;
   background: #3a6b3a; box-shadow: 0 4px 20px rgba(0,0,0,0.25);
@@ -576,7 +415,7 @@ function filterCabins(type, btn) {
 
 @media (max-width: 420px) {
   #ah-chat-panel { width: calc(100vw - 32px); right: 16px; bottom: 88px; }
-  #ah-chat-bubble { border: none; cursor: pointer;  right: 16px; bottom: 16px; }
+  #ah-chat-bubble { right: 16px; bottom: 16px; }
 }
 </style>
 
