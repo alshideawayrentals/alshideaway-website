@@ -65,12 +65,43 @@ NEARBY ATTRACTIONS:
 - Medina Lake swimming & fishing — 15 min
 
 === UPCOMING LOCAL EVENTS (update regularly) ===
-- Bandera Rodeo: Most Saturday nights May–August at the Bandera County Fairgrounds. Free to watch from the road, tickets for arena seating. Check banderacowboycapital.com for exact dates.
+- Bandera Rodeo: FRIDAY nights May–August. Real cowboys, authentic Texas rodeo, 20 min from us. Check banderacowboycapital.com for exact dates.
 - Fourth of July Celebration: Fireworks over Bandera, parade down Main Street.
-- Kerrville Folk Festival: Late May through early June, one of the longest-running folk music festivals in the country.
 - Lost Maples Fall Color: Peak late October through mid-November. Reserve state park day passes well in advance — sells out fast.
 - Fredericksburg Oktoberfest: First weekend in October on Main Street.
 - Christmas in Comfort / Comfort holiday events: December
+
+LIVE MUSIC VENUES NEARBY:
+- John T. Floore's Country Store (Helotes, ~30 min): legendary Texas honky-tonk where Willie Nelson got his start. Tickets at liveatfloores.com.
+- 11th Street Cowboy Bar (Bandera, ~20 min): "The Biggest Little Bar in Texas" — live country & western swing most Friday and Saturday nights at 8 PM. Schedule at 11thstcowboybar.com.
+- The 4 Way Bar & Grill (Lakehills, ~15 min, near Medina Lake): live music on weekends, Texas Hold 'Em and pool tournaments during the week. Family-friendly bar & grill. 4waybarandgrill.com.
+- Kickback Korner (402 Main St, Bandera, ~20 min): live music Tuesdays 7 PM, Fridays 9 PM, Saturdays 2-5 PM and 9 PM, Sunday Funday 5-9 PM, karaoke Thursdays 7 PM. They post each week's lineup on their Facebook page.
+
+MUSEUMS & FAMILY ATTRACTIONS IN BANDERA:
+- Bandera Natural History & Art Museum: life-size dinosaurs, wildlife dioramas, Ice Age animals on outdoor trails. Special event: Jurassic Jamboree June 13, 2026 (10 AM-5 PM) — carnival-style 10th anniversary celebration. banderanhm.org.
+- Frontier Times Museum: authentic Old West history museum. Cowboy Jamboree with live music and storytelling on the 4th Sunday of every month. Special event: "Freedom on the Frontier" June 27-28, 2026 celebrating America's 250th birthday. frontiertimesmuseum.org.
+- Cowboys on Main: every Saturday at Western Trail Heritage Park in Bandera — FREE. Chuckwagon storytelling, Longhorn photo ops, horse-drawn wagon tours.
+
+ANNUAL AREA EVENTS (Bandera & Boerne):
+- Boerne Market Days: 2nd full weekend of every month on Main Plaza — handmade goods, local food, art.
+- Boerne Abendkonzerte: free summer evening concerts at Main Plaza (Boerne Parks & Rec).
+- Berges Fest (Boerne): Father's Day weekend in June — 3-day German heritage festival with parade on Main Street, free admission.
+- Bandera Round-Up Longhorn Cattle Drive & Parade: Labor Day weekend — longhorns down Main Street.
+- Kendall County Fair (Boerne): Labor Day weekend — carnival, livestock show, rodeo.
+- Dickens on Main (Boerne): Thanksgiving weekend — holiday wonderland with snow flurries, street performers, Santa.
+- Cowboy Mardi Gras (Bandera): every February — Cajun-meets-cowboy parade, music, dancing.
+
+UPCOMING CONCERTS AT FLOORE'S COUNTRY STORE (2026):
+- Fri Jun 19: Casey Donahew with Julianna Rankin
+- Sat Jun 20: Tyler Halverson with Kyle Gates
+- Fri Jun 26: Dylan Wheeler
+- Fri Jul 3: Carson Jeffrey with Gatlin Johnson
+- Fri Jul 10: Josh Weathers
+- Fri Jul 17: Clay Hollis
+- Sat Jul 18: Cole Barnhill
+- Fri Jul 24: Isaac Jacob Band
+- Sat Aug 8: Kolby Cooper
+- Sep 5–7 (Labor Day weekend): Robert Earl Keen's 5th Annual Homecoming Weekend — Sat: 30th Anniversary of No. 2 Live Dinner outdoor show; Sun: REK & Friends "A Night of Songs and Stories" indoor show with Suzy Bogguss, Ray Wylie Hubbard, and Steve Poltz; Mon: Fan Appreciation Day. Ticket code REK2026.
 (Jennifer: update this section with specific upcoming events and dates)
 === END EVENTS ===
 
