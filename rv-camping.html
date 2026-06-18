@@ -38,6 +38,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .check { color: var(--green); font-weight: 700; }
   </style>
   <link rel="preload" as="image" href="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/bbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg" fetchpriority="high" />
+  <!-- PayPal Pay Later Messaging -->
+  <script
+    src="https://www.paypal.com/sdk/js?client-id=AdYIe4Fcsr87fkpnmkZw7wq08EIogBGKGoNakEY8C7NaR2kJZn5gDyPzMKKQwZY0xDZhJvVWpQ3ELES1&components=messages"
+    data-namespace="PayPalSDK">
+  </script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -58,8 +63,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="events.html">Events & Venue</a></li>
       <li><a href="hill-country-guide.html">Area Guide</a></li>
       <li><a href="scenic-drives.html">Scenic Drives</a></li>
-      <li><a href="about.html">Our Story</a></li>
-      <li><a href="blog.html">Blog</a></li>
       <li><a href="faq.html">FAQ</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -96,6 +99,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="trust-item"><span class="icon">🐾</span> Pets Always Free</div>
     <div class="trust-item"><span class="icon">🏆</span> TACO Accommodations of the Year 2024</div>
     <div class="trust-item"><span class="icon">👨‍👩‍👧</span> On-Site Owners</div>
+  </div>
+</div>
+
+<!-- PayPal Pay Later Message -->
+<div style="text-align:center; padding: 20px 0 4px;">
+  <div
+    data-pp-message
+    data-pp-style-layout="text"
+    data-pp-style-logo-type="primary"
+    data-pp-style-text-color="black"
+    data-pp-amount="45"
+    data-pp-language="">
   </div>
 </div>
 
