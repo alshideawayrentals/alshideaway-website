@@ -15,6 +15,10 @@ http://www.alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
 /travel-guide /hill-country-guide 301
 /event-venue /events 301
 /wedding-gallery /events 301
+
+# Google Ads safety net (ad displays /hill-country/cabins)
+/hill-country/cabins /cabins 301
+/hill-country/* /hill-country-guide 301
 /gallery / 301
 /rv /rv-camping 301
 /camping /rv-camping 301
