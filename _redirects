@@ -2,6 +2,12 @@
 # Domain-level 301s (alshideaway.com -> www.staytexashillcountry.com) are handled
 # in Netlify: both domains added to this project, staytexashillcountry.com primary.
 
+# Old domain -> new domain (host-level, forced). Aliases don't auto-redirect to primary.
+https://alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
+https://www.alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
+http://alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
+http://www.alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
+
 /cabins /cabins.html 301!
 
 # Old site pages -> new pages
