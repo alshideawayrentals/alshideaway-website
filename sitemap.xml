@@ -1,171 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.staytexashillcountry.com/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/cabins.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/rv-camping.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/events.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/hill-country-guide.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/scenic-drives.html</loc>
-    <lastmod>2026-06-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/about.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/blog.html</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/faq.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/policies.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/contact.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/privacy-policy.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/terms-of-use.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/ada.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/national-day-of-the-cowboy-bandera-2026.html</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/guadalupe-river-tubing-texas-hill-country.html</loc>
-    <lastmod>2026-07-12</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/kronkosky-state-natural-area-fall-2026-opening.html</loc>
-    <lastmod>2026-06-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/fourth-of-july-weekend-bandera.html</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/summer-rodeo-season-in-bandera.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/turning-the-dream-into-dirt.html</loc>
-    <lastmod>2026-03-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/finding-the-perfect-property.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/the-hunt-for-the-perfect-property.html</loc>
-    <lastmod>2026-02-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/why-we-chose-the-texas-hill-country.html</loc>
-    <lastmod>2026-02-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/cowboy-mardi-gras-and-the-dream-on-mount-nebo.html</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/who-is-al-the-story-behind-the-name.html</loc>
-    <lastmod>2026-02-01</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/winter-storms-and-big-plans.html</loc>
-    <lastmod>2026-01-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/discover-als-hideaway-family-built-retreat.html</loc>
-    <lastmod>2026-01-22</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.staytexashillcountry.com/fifa-world-cup-2026-hill-country-basecamp.html</loc>
-    <lastmod>2025-11-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
+<url>
+<loc>https://www.staytexashillcountry.com/</loc>
+<lastmod>2026-06-05</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/cabins.html</loc>
+<lastmod>2026-06-05</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/rv-camping.html</loc>
+<lastmod>2026-06-05</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/events.html</loc>
+<lastmod>2026-06-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/hill-country-guide.html</loc>
+<lastmod>2026-06-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/scenic-drives.html</loc>
+<lastmod>2026-06-06</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/about.html</loc>
+<lastmod>2026-06-11</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/blog.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/faq.html</loc>
+<lastmod>2026-06-11</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/policies.html</loc>
+<lastmod>2026-06-11</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/contact.html</loc>
+<lastmod>2026-06-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/privacy-policy.html</loc>
+<lastmod>2026-06-11</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/terms-of-use.html</loc>
+<lastmod>2026-06-11</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/ada.html</loc>
+<lastmod>2026-06-11</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/bandera-round-up-labor-day-weekend-2026.html</loc>
+<lastmod>2026-07-19</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/national-day-of-the-cowboy-bandera-2026.html</loc>
+<lastmod>2026-07-12</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/guadalupe-river-tubing-texas-hill-country.html</loc>
+<lastmod>2026-07-12</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/kronkosky-state-natural-area-fall-2026-opening.html</loc>
+<lastmod>2026-06-22</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/fourth-of-july-weekend-bandera.html</loc>
+<lastmod>2026-06-18</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/summer-rodeo-season-in-bandera.html</loc>
+<lastmod>2026-06-11</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/turning-the-dream-into-dirt.html</loc>
+<lastmod>2026-03-08</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/finding-the-perfect-property.html</loc>
+<lastmod>2026-03-01</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/the-hunt-for-the-perfect-property.html</loc>
+<lastmod>2026-02-22</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/why-we-chose-the-texas-hill-country.html</loc>
+<lastmod>2026-02-15</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/cowboy-mardi-gras-and-the-dream-on-mount-nebo.html</loc>
+<lastmod>2026-02-08</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/who-is-al-the-story-behind-the-name.html</loc>
+<lastmod>2026-02-01</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/winter-storms-and-big-plans.html</loc>
+<lastmod>2026-01-25</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/discover-als-hideaway-family-built-retreat.html</loc>
+<lastmod>2026-01-22</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/fifa-world-cup-2026-hill-country-basecamp.html</loc>
+<lastmod>2025-11-14</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
 </urlset>
