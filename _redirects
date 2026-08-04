@@ -10,6 +10,17 @@ http://www.alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
 
 /cabins /cabins.html 301!
 
+# Homepage nav links to extensionless paths for these pages too (same issue as /cabins above)
+/rv-camping /rv-camping.html 301!
+/events /events.html 301!
+/hill-country-guide /hill-country-guide.html 301!
+/scenic-drives /scenic-drives.html 301!
+/touring-rallies /touring-rallies.html 301!
+/about /about.html 301!
+/blog /blog.html 301!
+/faq /faq.html 301!
+/contact /contact.html 301!
+
 # Old site pages -> new pages
 /accommodations /cabins 301
 /travel-guide /hill-country-guide 301
