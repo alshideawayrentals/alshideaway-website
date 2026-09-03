@@ -1,0 +1,28 @@
+# Force real 301 redirects from the old alshideaway.com domain to the
+# primary staytexashillcountry.com domain. Netlify's automatic
+# alias-to-primary redirect serves a 302; these explicit rules force a
+# permanent 301 instead, which passes SEO/AI-crawler signal correctly.
+
+[[redirects]]
+from = "https://alshideaway.com/*"
+to = "https://www.staytexashillcountry.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.alshideaway.com/*"
+to = "https://www.staytexashillcountry.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://alshideaway.com/*"
+to = "https://www.staytexashillcountry.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://www.alshideaway.com/*"
+to = "https://www.staytexashillcountry.com/:splat"
+status = 301
+force = true
