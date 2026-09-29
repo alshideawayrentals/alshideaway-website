@@ -21,6 +21,9 @@ http://www.alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
 /faq /faq.html 301!
 /contact /contact.html 301!
 
+# Duplicate post -> current version
+/national-day-of-the-american-cowboy-bandera.html /national-day-of-the-cowboy-bandera-2026.html 301!
+
 # Old site pages -> new pages
 /accommodations /cabins 301
 /travel-guide /hill-country-guide 301
