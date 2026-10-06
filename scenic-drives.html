@@ -269,6 +269,14 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
         linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
         url('images/aerial-property.webp') center/cover no-repeat;
     }
+    /* Phones get a lighter crop of the same photo */
+    @media (max-width: 640px) {
+      .page-hero {
+        background-image:
+          linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
+          url('images/aerial-property-m.webp');
+      }
+    }
     .drive-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

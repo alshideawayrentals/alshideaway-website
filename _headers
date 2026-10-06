@@ -1,0 +1,4 @@
+# Let browsers keep photos for 30 days instead of re-checking each one on every page view.
+# If you replace a photo, upload it under a new file name so returning visitors see the new one.
+/images/*
+  Cache-Control: public, max-age=2592000
