@@ -392,6 +392,34 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
 .town-grid.three { grid-template-columns: repeat(3, 1fr); }
 @media(max-width: 900px) { .town-grid.three { grid-template-columns: 1fr; } }
 </style>
+<style>
+/* ── PHONE LAYOUT: shortcut buttons, compact cabin grid, places to stay first ── */
+.hero-jump { display: none; }
+#cabins, #rv-camping { scroll-margin-top: 72px; }
+@media (max-width: 640px) {
+  .hero-jump { display: flex; gap: 10px; justify-content: center; margin-top: 14px; }
+  .hero-jump a { flex: 1 1 0; max-width: 190px; padding: 12px 8px; border-radius: 6px; background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.6); color: #fff; font-weight: 600; font-size: 0.95rem; text-align: center; }
+  .hero-perks { margin-top: 22px; }
+
+  /* Show cabins and RV sites before the reading sections. The words stay on the page. */
+  main { display: flex; flex-direction: column; }
+  main > * { order: 3; }
+  main > .hero, main > .promo-banner, main > .trust-bar { order: 0; }
+  main > #cabins, main > #rv-camping { order: 1; }
+  main > .m-after-stays { order: 2; }
+
+  /* 13 cabins in a two-across grid instead of one long column */
+  #cabins.section { padding: 44px 0; }
+  .cabin-section-intro { margin-bottom: 22px; }
+  .cabin-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .cabin-card img { height: 104px; }
+  .cabin-card-body { padding: 10px; }
+  .cabin-card-body p { display: none; }
+  .cabin-tag { background: none; padding: 0; border-radius: 0; text-transform: none; letter-spacing: 0; font-size: 0.74rem; font-weight: 600; line-height: 1.3; margin-bottom: 5px; }
+  .cabin-card-body h3, .cabin-card-body .h3 { font-size: 0.9rem; line-height: 1.25; margin-bottom: 10px; flex: 1; }
+  .cabin-book-btn { padding: 12px 6px; font-size: 0.84rem; }
+}
+</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -429,6 +457,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794" target="_blank">Check Availability</a>
       <a class="btn btn-secondary" href="https://app.docusketch.com/player/_eGlT6hM" target="_blank">360° Property Tour</a>
     </div>
+    <div class="hero-jump">
+      <a href="#cabins">See Cabins</a>
+      <a href="#rv-camping">See RV Sites</a>
+    </div>
     <div class="hero-perks">
       <span class="perk-chip">Best Price Direct</span><span class="perk-chip">Only 50% Due Today</span>
       <span class="perk-chip">No Cleaning Fees</span>
@@ -439,7 +471,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 <!-- PROMO BANNER -->
-<div style="background: #b85c2a; color: #fff; text-align: center; padding: 14px 24px;">
+<div class="promo-banner" style="background: #b85c2a; color: #fff; text-align: center; padding: 14px 24px;">
   <span style="font-size: 1rem; font-weight: 600;">🎉 Special Offer: Book 2+ Nights Online & Save 10% — Use Promo Code <span style="background: rgba(0,0,0,0.30); padding: 3px 10px; border-radius: 4px; letter-spacing: 0.05em;">FUN</span> at checkout</span>
 </div>
 
@@ -453,7 +485,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
-<section class="section">
+<section class="section m-after-stays">
 <div class="container centered">
 <h2>Why Guests Come Out Here: Unplug, Meet the Animals, Feel the Cowboy Heritage</h2>
 <p class="prose2">Al's Hideaway is where people come to slow down and to do things they cannot do in the city.</p>
@@ -466,7 +498,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 <!-- STAY BY TOWN -->
-<section class="section section-alt">
+<section class="section section-alt m-after-stays">
 <div class="container centered">
 <h2>Cabins &amp; RV Sites Near San Antonio, Boerne, Helotes &amp; Bandera</h2>
 <p class="prose2">One property, four easy escapes. Al's Hideaway is in <a href="places-to-stay-pipe-creek-tx.html">Pipe Creek</a> in the heart of the Texas Hill Country, with 13 log cabins (four one-bedrooms with full kitchens), 10 full-hookup RV sites and 9 cowboy campsites. Find the page for the town you are coming from:</p>
@@ -480,7 +512,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 <!-- INTRO -->
-<section class="section">
+<section class="section m-after-stays">
   <div class="container">
     <div class="two-col">
       <div>
