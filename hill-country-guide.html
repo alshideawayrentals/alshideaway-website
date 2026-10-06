@@ -51,6 +51,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
         url('images/aerial-property.webp') center/cover no-repeat;
     }
+    /* Phones get a lighter crop of the same photo */
+    @media (max-width: 640px) {
+      .page-hero {
+        background-image:
+          linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
+          url('images/aerial-property-m.webp');
+      }
+    }
     .town-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 40px; }
     .town-card { background: #fff; border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
     .town-card-header { background: var(--green); padding: 20px 22px; }

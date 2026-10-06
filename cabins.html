@@ -250,6 +250,15 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
         linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
         url('images/cabins-exterior.webp') center/cover no-repeat;
     }
+    /* Phones get a lighter crop of the same photo */
+    @media (max-width: 640px) {
+      .page-hero {
+        --hero-bg: url('images/cabins-exterior-m.webp');
+        background-image:
+          linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
+          url('images/cabins-exterior-m.webp');
+      }
+    }
     .amenity-list { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
     .amenity-list li { background: var(--tan); color: var(--green-dark); font-size: 0.75rem; font-weight: 600; padding: 4px 12px; border-radius: 100px; }
     .filter-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 36px; justify-content: center; }
@@ -262,7 +271,8 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     .why-item h3, .why-item .h3 { color: #2d2d2d; margin-bottom: 6px; }
     .why-item p { font-size: 0.87rem; }
   </style>
-  <link rel="preload" as="image" href="images/cabins-exterior.webp" fetchpriority="high" />
+  <link rel="preload" as="image" href="images/cabins-exterior.webp" fetchpriority="high" media="(min-width: 641px)" />
+  <link rel="preload" as="image" href="images/cabins-exterior-m.webp" fetchpriority="high" media="(max-width: 640px)" />
   <!-- PayPal Pay Later Messaging -->
   <script
     src="https://www.paypal.com/sdk/js?client-id=AdYIe4Fcsr87fkpnmkZw7wq08EIogBGKGoNakEY8C7NaR2kJZn5gDyPzMKKQwZY0xDZhJvVWpQ3ELES1&components=messages"
