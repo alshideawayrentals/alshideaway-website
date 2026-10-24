@@ -282,6 +282,16 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     .event-type-chip { background: #fff; border: 2px solid var(--green); color: var(--green); font-weight: 600; font-size: 0.88rem; padding: 8px 20px; border-radius: 100px; }
   </style>
   <link rel="preload" as="image" href="https://lirp.cdn-website.com/1700f2d8/dms3rep/multi/opt/park+rental+options+2-908w.png" fetchpriority="high" />
+<style id="nav-fit">
+/* Collapse the menu to the hamburger until there's room for every link */
+@media (max-width: 1279px) {
+  .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--green-dark, #2c5230); flex-direction: column; gap: 0; padding: 8px 0; }
+  .nav-links.open { display: flex; }
+  .nav-links li { padding: 0; }
+  .nav-links a { display: block; padding: 12px 24px; font-size: 0.95rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .nav-toggle { display: flex; }
+}
+</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->

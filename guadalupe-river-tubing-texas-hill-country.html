@@ -53,6 +53,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .post-nav { display: flex; justify-content: space-between; gap: 16px; margin-top: 40px; padding-top: 24px; border-top: 1px solid #eee; }
 .post-nav a { color: var(--green); font-weight: 600; text-decoration: none; font-size: 0.92rem; }
 </style>
+<style id="nav-fit">
+/* Collapse the menu to the hamburger until there's room for every link */
+@media (max-width: 1279px) {
+  .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--green-dark, #2c5230); flex-direction: column; gap: 0; padding: 8px 0; }
+  .nav-links.open { display: flex; }
+  .nav-links li { padding: 0; }
+  .nav-links a { display: block; padding: 12px 24px; font-size: 0.95rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .nav-toggle { display: flex; }
+}
+</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -73,7 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><a href="hill-country-guide.html">Area Guide</a></li>
 <li><a href="scenic-drives.html">Scenic Drives</a></li>
 <li><a href="touring-rallies.html">Touring &amp; Rallies</a></li>
-<li><a href="about.html">Our Story</a></li>
+<li><a href="memaws-country-store.html">Store &amp; Cafe</a></li><li><a href="about.html">Our Story</a></li>
 <li><a href="blog.html" class="active">Blog</a></li>
 <li><a href="faq.html">FAQ</a></li>
 <li><a href="contact.html">Contact</a></li>
