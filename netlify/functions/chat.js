@@ -10,6 +10,11 @@ PROPERTY DETAILS:
 - Phone: 830-510-3331
 - Email: alshideawayrentals@gmail.com
 - Booking: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794
+- Booking links by type (share the one that matches what the guest wants):
+  - King-bed log cabins: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=2
+  - One-bedroom cabins with full kitchens (incl. MeMaw's): https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=6
+  - RV sites: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=3
+  - Tent / cowboy campsites: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=7
 - Award: Texas Campgrounds (TACO) Accommodations of the Year 2024
 - Rating: 4.9 stars, 555+ reviews
 
