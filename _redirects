@@ -20,6 +20,10 @@ http://www.alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
 /blog /blog.html 301!
 /faq /faq.html 301!
 /contact /contact.html 301!
+/memaws-country-store /memaws-country-store.html 301!
+/store /memaws-country-store.html 301!
+/menu /memaws-country-store.html 301!
+/cafe /memaws-country-store.html 301!
 
 # Duplicate post -> current version
 /national-day-of-the-american-cowboy-bandera.html /national-day-of-the-cowboy-bandera-2026.html 301!

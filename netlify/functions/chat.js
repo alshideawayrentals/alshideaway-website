@@ -15,6 +15,7 @@ PROPERTY DETAILS:
   - One-bedroom cabins with full kitchens (incl. MeMaw's): https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=6
   - RV sites: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=3
   - Tent / cowboy campsites: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=7
+- Store & cafe menu (MeMaw's Country Store, open to the public; lattes, energy drinks, smoothies, breakfast tacos, sandwiches; text orders to 830-271-3331; Early Bird pre-order by 8pm for 6:30am pickup, $10 min): https://www.staytexashillcountry.com/memaws-country-store.html
 - Award: Texas Campgrounds (TACO) Accommodations of the Year 2024
 - Rating: 4.9 stars, 555+ reviews
 
