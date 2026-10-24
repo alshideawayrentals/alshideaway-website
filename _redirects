@@ -10,6 +10,56 @@ http://www.alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
 
 /cabins /cabins.html 301!
 
+# One address per page: send the no-".html" version of every page to the .html version
+# (matches each page's canonical tag and the sitemap, so rankings and analytics aren't split)
+/ada /ada.html 301!
+/alamo-church-closing-roof-restoration-2026 /alamo-church-closing-roof-restoration-2026.html 301!
+/bandera-county-fair-2026 /bandera-county-fair-2026.html 301!
+/bandera-round-up-labor-day-weekend-2026 /bandera-round-up-labor-day-weekend-2026.html 301!
+/best-places-to-stay-near-bandera-tx /best-places-to-stay-near-bandera-tx.html 301!
+/cabins-and-rv-sites-near-san-antonio-tx /cabins-and-rv-sites-near-san-antonio-tx.html 301!
+/cabins-near-boerne-tx /cabins-near-boerne-tx.html 301!
+/cabins-near-kronkosky-state-natural-area /cabins-near-kronkosky-state-natural-area.html 301!
+/camel-farm-pipe-creek-tx /camel-farm-pipe-creek-tx.html 301!
+/christmas-lights-parades-hill-country-tx /christmas-lights-parades-hill-country-tx.html 301!
+/coffee-espresso-energy-bar-pipe-creek /coffee-espresso-energy-bar-pipe-creek.html 301!
+/coming-king-sculpture-prayer-garden-kerrville-tx /coming-king-sculpture-prayer-garden-kerrville-tx.html 301!
+/cowboy-christmas-getaway-bandera-tx /cowboy-christmas-getaway-bandera-tx.html 301!
+/cowboy-mardi-gras-and-the-dream-on-mount-nebo /cowboy-mardi-gras-and-the-dream-on-mount-nebo.html 301!
+/day-of-the-dead-trail-2026 /day-of-the-dead-trail-2026.html 301!
+/discover-als-hideaway-family-built-retreat /discover-als-hideaway-family-built-retreat.html 301!
+/exotic-animal-encounters-pipe-creek-tx /exotic-animal-encounters-pipe-creek-tx.html 301!
+/fall-getaway-texas-hill-country-cabins-near-bandera-boerne /fall-getaway-texas-hill-country-cabins-near-bandera-boerne.html 301!
+/fall-hiking-state-natural-areas-hill-country /fall-hiking-state-natural-areas-hill-country.html 301!
+/fall-holiday-travel-costs-more-stay-hill-country-cabins /fall-holiday-travel-costs-more-stay-hill-country-cabins.html 301!
+/fifa-world-cup-2026-hill-country-basecamp /fifa-world-cup-2026-hill-country-basecamp.html 301!
+/finding-the-perfect-property /finding-the-perfect-property.html 301!
+/fourth-of-july-weekend-bandera /fourth-of-july-weekend-bandera.html 301!
+/guadalupe-river-tubing-texas-hill-country /guadalupe-river-tubing-texas-hill-country.html 301!
+/highland-cow-farm-tour-pipe-creek-tx /highland-cow-farm-tour-pipe-creek-tx.html 301!
+/horseback-riding-longhorns-bandera-tx /horseback-riding-longhorns-bandera-tx.html 301!
+/hotels-and-places-to-stay-near-boerne-tx /hotels-and-places-to-stay-near-boerne-tx.html 301!
+/kronkosky-state-natural-area-fall-2026-opening /kronkosky-state-natural-area-fall-2026-opening.html 301!
+/national-day-of-the-american-cowboy-bandera /national-day-of-the-american-cowboy-bandera.html 301!
+/national-day-of-the-cowboy-bandera-2026 /national-day-of-the-cowboy-bandera-2026.html 301!
+/perseid-meteor-shower-2026-texas-hill-country /perseid-meteor-shower-2026-texas-hill-country.html 301!
+/places-to-stay-near-helotes-tx /places-to-stay-near-helotes-tx.html 301!
+/places-to-stay-pipe-creek-tx /places-to-stay-pipe-creek-tx.html 301!
+/policies /policies.html 301!
+/privacy-policy /privacy-policy.html 301!
+/skip-the-crowds-texas-hill-country-2026 /skip-the-crowds-texas-hill-country-2026.html 301!
+/story-of-als-hideaway-glamping-near-san-antonio /story-of-als-hideaway-glamping-near-san-antonio.html 301!
+/summer-rodeo-season-in-bandera /summer-rodeo-season-in-bandera.html 301!
+/terms-of-use /terms-of-use.html 301!
+/texas-hill-country-map-travel-guide /texas-hill-country-map-travel-guide.html 301!
+/texas-wedding-venues-hill-country /texas-wedding-venues-hill-country.html 301!
+/thanksgiving-cabin-getaway-texas-hill-country /thanksgiving-cabin-getaway-texas-hill-country.html 301!
+/the-hunt-for-the-perfect-property /the-hunt-for-the-perfect-property.html 301!
+/turning-the-dream-into-dirt /turning-the-dream-into-dirt.html 301!
+/who-is-al-the-story-behind-the-name /who-is-al-the-story-behind-the-name.html 301!
+/why-we-chose-the-texas-hill-country /why-we-chose-the-texas-hill-country.html 301!
+/winter-storms-and-big-plans /winter-storms-and-big-plans.html 301!
+
 # Homepage nav links to extensionless paths for these pages too (same issue as /cabins above)
 /rv-camping /rv-camping.html 301!
 /events /events.html 301!
@@ -29,36 +79,36 @@ http://www.alshideaway.com/* https://www.staytexashillcountry.com/:splat 301!
 /national-day-of-the-american-cowboy-bandera.html /national-day-of-the-cowboy-bandera-2026.html 301!
 
 # Old site pages -> new pages
-/accommodations /cabins 301
-/travel-guide /hill-country-guide 301
-/event-venue /events 301
-/wedding-gallery /events 301
+/accommodations /cabins.html 301
+/travel-guide /hill-country-guide.html 301
+/event-venue /events.html 301
+/wedding-gallery /events.html 301
 
 # Google Ads safety net (ad displays /hill-country/cabins)
-/hill-country/cabins /cabins 301
-/hill-country/* /hill-country-guide 301
+/hill-country/cabins /cabins.html 301
+/hill-country/* /hill-country-guide.html 301
 /gallery / 301
-/rv /rv-camping 301
-/camping /rv-camping 301
+/rv /rv-camping.html 301
+/camping /rv-camping.html 301
 
 # Old blog posts -> closest new pages
-/scenic-drives-in-texas-hill-country /scenic-drives 301
-/best-restaurants-bars-in-bandera-county /hill-country-guide 301
-/texas-hill-country-wineries /hill-country-guide 301
-/horseback-riding-in-texas-hill-country /hill-country-guide 301
-/texas-state-natural-areas-and-parks-near-bandera-tx /kronkosky-state-natural-area-fall-2026-opening 301
-/family-friendly-activitie-around-pipe-creek-tx /hill-country-guide 301
-/annual-events-near-pipe-creek-texas /hill-country-guide 301
-/texas-hill-countrys-most-unique-attractions /hill-country-guide 301
-/small-town-gems-in-texas-hill-country /hill-country-guide 301
-/best-fishing%20spots-around-bandera-county /hill-country-guide 301
-/discover-als-hideaway-a-family-built-hill-country-retreat-with-heart /discover-als-hideaway-family-built-retreat 301
-/stay-at-als-hideaway-your-peaceful-retreat-near-houston-during-fifa-world-cup-2026 /fifa-world-cup-2026-hill-country-basecamp 301
-/fall-holiday-fun-at-als-hideaway-book-now-save /blog 301
-/this-week-at-al-s-hideaway-3-8-26 /turning-the-dream-into-dirt 301
-/this-week-at-als-hideaway-01-25-2026 /winter-storms-and-big-plans 301
-/this-week-at-al-s-hideaway /blog 301
-/my-post /blog 301
-/my-postafe6d880 /blog 301
-/my-post61b9a1dc /blog 301
-/my-post8a998e98 /blog 301
+/scenic-drives-in-texas-hill-country /scenic-drives.html 301
+/best-restaurants-bars-in-bandera-county /hill-country-guide.html 301
+/texas-hill-country-wineries /hill-country-guide.html 301
+/horseback-riding-in-texas-hill-country /hill-country-guide.html 301
+/texas-state-natural-areas-and-parks-near-bandera-tx /kronkosky-state-natural-area-fall-2026-opening.html 301
+/family-friendly-activitie-around-pipe-creek-tx /hill-country-guide.html 301
+/annual-events-near-pipe-creek-texas /hill-country-guide.html 301
+/texas-hill-countrys-most-unique-attractions /hill-country-guide.html 301
+/small-town-gems-in-texas-hill-country /hill-country-guide.html 301
+/best-fishing%20spots-around-bandera-county /hill-country-guide.html 301
+/discover-als-hideaway-a-family-built-hill-country-retreat-with-heart /discover-als-hideaway-family-built-retreat.html 301
+/stay-at-als-hideaway-your-peaceful-retreat-near-houston-during-fifa-world-cup-2026 /fifa-world-cup-2026-hill-country-basecamp.html 301
+/fall-holiday-fun-at-als-hideaway-book-now-save /blog.html 301
+/this-week-at-al-s-hideaway-3-8-26 /turning-the-dream-into-dirt.html 301
+/this-week-at-als-hideaway-01-25-2026 /winter-storms-and-big-plans.html 301
+/this-week-at-al-s-hideaway /blog.html 301
+/my-post /blog.html 301
+/my-postafe6d880 /blog.html 301
+/my-post61b9a1dc /blog.html 301
+/my-post8a998e98 /blog.html 301
