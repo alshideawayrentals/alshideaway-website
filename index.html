@@ -184,6 +184,8 @@ p { color: var(--muted); }
 .btn-primary:hover { background: var(--green-dark); }
 .btn-secondary { background: transparent; color: #fff; border: 2px solid #fff; }
 .btn-secondary:hover { background: rgba(255,255,255,0.15); }
+.btn-tour { background: #2c5230; color: #fff; border: 2px solid #fff; box-shadow: 0 4px 14px rgba(0,0,0,0.35); }
+.btn-tour:hover { background: #1f3b22; }
 .btn-rust { background: var(--rust); color: #fff; }
 .btn-rust:hover { background: #9e4e22; }
 .btn-outline { background: transparent; color: var(--green); border: 2px solid var(--green); }
@@ -399,10 +401,18 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
 .hero-jump { display: none; }
 #cabins, #rv-camping { scroll-margin-top: 72px; }
 @media (max-width: 640px) {
-  .hero-jump { display: flex; gap: 10px; justify-content: center; margin-top: 14px; }
-  .hero-jump a { flex: 1 1 0; max-width: 190px; padding: 13px 8px; border-radius: 6px; background: #f5efe6; border: 2px solid #fff; color: #2c5230; font-weight: 700; font-size: 1rem; text-align: center; box-shadow: 0 3px 10px rgba(0,0,0,0.30); }
-  .hero-jump a:active { background: #fff; }
-  .hero-perks { margin-top: 22px; }
+  /* Phone hero: shortcut buttons on the first screen, no scrolling needed */
+  .hero { min-height: auto; padding: 28px 18px 30px; }
+  .hero-content { display: flex; flex-direction: column; align-items: center; }
+  .hero-badge { display: none; }
+  .hero h1 { font-size: 1.95rem; margin-bottom: 12px; }
+  .hero > .hero-content > p { font-size: 0.98rem; line-height: 1.5; margin-bottom: 18px; }
+  .hero-jump { order: 3; display: flex; gap: 10px; justify-content: center; width: 100%; max-width: 360px; margin: 0 0 12px; }
+  .hero-jump a { flex: 1 1 0; padding: 16px 6px; border-radius: 10px; background: #f5efe6; border: 2px solid #fff; color: #2c5230; font-weight: 800; font-size: 1.08rem; text-align: center; box-shadow: 0 6px 18px rgba(0,0,0,0.45); }
+  .hero-jump a:active { background: #fff; transform: translateY(1px); }
+  .hero-buttons { order: 4; width: 100%; max-width: 360px; flex-direction: column; gap: 10px; }
+  .hero-buttons .btn { width: 100%; padding: 14px 16px; font-weight: 700; box-shadow: 0 4px 14px rgba(0,0,0,0.35); }
+  .hero-perks { order: 5; margin-top: 18px; }
 
   /* Show cabins and RV sites before the reading sections. The words stay on the page. */
   main { display: flex; flex-direction: column; }
@@ -458,11 +468,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>13 cozy log cabins, 10 full-hookup RV sites, and 9 cowboy campsites on 20 scenic acres in Pipe Creek, TX — minutes from Bandera, Boerne, and San Antonio.</p>
     <div class="hero-buttons">
       <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&amp;roomClass=2" target="_blank">Check Availability</a>
-      <a class="btn btn-secondary" href="https://app.docusketch.com/player/_eGlT6hM" target="_blank">360° Property Tour</a>
+      <a class="btn btn-tour" href="https://app.docusketch.com/player/_eGlT6hM" target="_blank"><span aria-hidden="true">▶</span> 360° Property Tour</a>
     </div>
     <div class="hero-jump">
-      <a href="#cabins">See Cabins</a>
-      <a href="#rv-camping">See RV Sites</a>
+      <a href="#cabins"><span aria-hidden="true">🏡</span> See Cabins</a>
+      <a href="#rv-camping"><span aria-hidden="true">🚐</span> See RV Sites</a>
     </div>
     <div class="hero-perks">
       <span class="perk-chip">Best Price Direct</span><span class="perk-chip">Only 50% Due Today</span>
