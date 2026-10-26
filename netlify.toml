@@ -1,3 +1,10 @@
+# Keep internal links exactly as written (cabins.html, not /cabins).
+# Netlify's "Pretty URLs" post-processing was rewriting every link to the
+# no-.html version, which _redirects then 301s back to .html, so every
+# internal link on the site went through a redirect.
+[build.processing.html]
+  pretty_urls = false
+
 # Force real 301 redirects from the old alshideaway.com domain to the
 # primary staytexashillcountry.com domain. Netlify's automatic
 # alias-to-primary redirect serves a 302; these explicit rules force a
