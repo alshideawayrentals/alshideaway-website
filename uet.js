@@ -4,6 +4,7 @@
  *    visits that came from its ads.
  * 2. Reports a "booking_click" event whenever a visitor clicks any link that
  *    goes to the ResNexus booking engine (Check Availability, Book Cabin, etc.).
+ *    The same click also fires the X (Twitter) Ads "Begin checkout" event.
  * 3. Reports a "phone_click" event when a visitor taps the main phone number.
  *
  * Loaded on every page with:  <script async src="/uet.js"></script>
@@ -52,6 +53,11 @@
     if (host === "resnexus.com" || host.slice(-13) === ".resnexus.com") {
       var label = (a.textContent || "").replace(/\s+/g, " ").trim().slice(0, 60);
       send("booking_click", "booking", label || "booking link");
+      // X (Twitter) Ads "Begin checkout" event (pixel rehfy). The base X
+      // pixel loads through Google Tag Manager; skip quietly if it hasn't.
+      if (typeof window.twq === "function") {
+        window.twq("event", "tw-rehfy-1411xg", {});
+      }
       return;
     }
 
