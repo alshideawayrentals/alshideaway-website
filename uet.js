@@ -52,6 +52,12 @@
     var host = (a.hostname || "").toLowerCase();
     if (host === "resnexus.com" || host.slice(-13) === ".resnexus.com") {
       var label = (a.textContent || "").replace(/\s+/g, " ").trim().slice(0, 60);
+      // Gift shop links (garden sponsorships, store items) are not cabin
+      // bookings: report them separately so booking numbers stay accurate.
+      if ((a.pathname || "").toLowerCase().indexOf("/giftshop") !== -1) {
+        send("sponsor_click", "sponsorship", label || "gift shop link");
+        return;
+      }
       send("booking_click", "booking", label || "booking link");
       // X (Twitter) Ads "Begin checkout" event (pixel rehfy). The base X
       // pixel loads through Google Tag Manager; skip quietly if it hasn't.
