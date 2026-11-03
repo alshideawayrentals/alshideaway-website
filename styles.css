@@ -207,3 +207,14 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
 .footer-social a { color: rgba(255,255,255,0.60); }
 .footer-social a:hover { color: #fff; }
 .social-links { flex-wrap: wrap; }
+
+/* Make links inside body text look like links (the global reset above hides them) */
+main p a:not(.btn):not(.more):not(.nav-cta),
+main li a:not(.btn):not(.more),
+.faq-a-inner a {
+  color: var(--rust);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+.cta-banner p a:not(.btn), .cta-banner li a:not(.btn), .page-hero p a { color: inherit; }
