@@ -33,3 +33,18 @@ from = "http://www.alshideaway.com/*"
 to = "https://www.staytexashillcountry.com/:splat"
 status = 301
 force = true
+
+# Send the no-www address to the www address (the primary domain) with a
+# permanent 301, so Google stops ranking the two homepage addresses separately.
+
+[[redirects]]
+from = "https://staytexashillcountry.com/*"
+to = "https://www.staytexashillcountry.com/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://staytexashillcountry.com/*"
+to = "https://www.staytexashillcountry.com/:splat"
+status = 301
+force = true
