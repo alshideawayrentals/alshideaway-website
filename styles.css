@@ -218,3 +218,11 @@ main li a:not(.btn):not(.more),
   font-weight: 500;
 }
 .cta-banner p a:not(.btn), .cta-banner li a:not(.btn), .page-hero p a { color: inherit; }
+
+/* "Where to stay" booking box on guide pages */
+.stay-box { background: #f6f1e7; border-left: 5px solid var(--rust); border-radius: var(--radius); padding: 20px 24px; margin: 28px 0; }
+.stay-box p { margin: 0 0 10px; }
+.stay-box p:last-child { margin-bottom: 0; }
+.stay-box-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.25rem; color: var(--green-dark); }
+.stay-box .btn { margin-bottom: 10px; }
+main .stay-box a.btn { color: #fff; text-decoration: none; }
