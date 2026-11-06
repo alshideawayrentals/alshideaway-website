@@ -48,3 +48,9 @@ from = "http://staytexashillcountry.com/*"
 to = "https://www.staytexashillcountry.com/:splat"
 status = 301
 force = true
+
+# Let Netlify's image service shrink and convert the photos that still live on
+# the old website's image server (lirp.cdn-website.com) into small WebP files.
+# Pages request them as /.netlify/images?url=...&w=...&fm=webp&q=75.
+[images]
+remote_images = ["https://lirp\\.cdn-website\\.com/.*"]
