@@ -271,7 +271,14 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     .page-hero {
       background:
         linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
-        url('/.netlify/images?url=https%3A%2F%2Flirp.cdn-website.com%2F1700f2d8%2Fdms3rep%2Fmulti%2Fopt%2Fbbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg&w=1600&fm=webp&q=75') center/cover no-repeat;
+        url('/.netlify/images?url=https%3A%2F%2Flirp.cdn-website.com%2F1700f2d8%2Fdms3rep%2Fmulti%2Fopt%2Fbbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg&w=1400&fm=webp&q=65') center/cover no-repeat;
+    }
+    @media (max-width: 640px) {
+      .page-hero {
+        background:
+          linear-gradient(to bottom, rgba(10,30,10,0.55) 0%, rgba(10,30,10,0.45) 100%),
+          url('/.netlify/images?url=https%3A%2F%2Flirp.cdn-website.com%2F1700f2d8%2Fdms3rep%2Fmulti%2Fopt%2Fbbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg&w=800&fm=webp&q=65') center/cover no-repeat;
+      }
     }
     .spec-table { width: 100%; border-collapse: collapse; margin-top: 28px; }
     .spec-table th { background: var(--green-dark); color: #fff; padding: 12px 16px; text-align: left; font-size: 0.88rem; letter-spacing: 0.04em; }
@@ -279,7 +286,8 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     .spec-table tr:nth-child(even) td { background: var(--tan); }
     .check { color: var(--green); font-weight: 700; }
   </style>
-  <link rel="preload" as="image" href="/.netlify/images?url=https%3A%2F%2Flirp.cdn-website.com%2F1700f2d8%2Fdms3rep%2Fmulti%2Fopt%2Fbbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg&amp;w=1600&amp;fm=webp&amp;q=75" fetchpriority="high" />
+  <link rel="preload" as="image" href="/.netlify/images?url=https%3A%2F%2Flirp.cdn-website.com%2F1700f2d8%2Fdms3rep%2Fmulti%2Fopt%2Fbbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg&amp;w=1400&amp;fm=webp&amp;q=65" fetchpriority="high" media="(min-width: 641px)" />
+  <link rel="preload" as="image" href="/.netlify/images?url=https%3A%2F%2Flirp.cdn-website.com%2F1700f2d8%2Fdms3rep%2Fmulti%2Fopt%2Fbbeb5ef7-9c23-4708-a973-a8fa6b0781ee-1920w.jpg&amp;w=800&amp;fm=webp&amp;q=65" fetchpriority="high" media="(max-width: 640px)" />
   <!-- PayPal Pay Later Messaging -->
   <script
     src="https://www.paypal.com/sdk/js?client-id=AdYIe4Fcsr87fkpnmkZw7wq08EIogBGKGoNakEY8C7NaR2kJZn5gDyPzMKKQwZY0xDZhJvVWpQ3ELES1&components=messages"
