@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.staytexashillcountry.com/</loc>
-<lastmod>2026-06-05</lastmod>
+<lastmod>2026-11-09</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1.0</priority>
 </url>
@@ -26,7 +26,7 @@
 </url>
 <url>
 <loc>https://www.staytexashillcountry.com/hill-country-guide.html</loc>
-<lastmod>2026-09-19</lastmod>
+<lastmod>2026-11-09</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -116,7 +116,7 @@
 </url>
 <url>
 <loc>https://www.staytexashillcountry.com/texas-hill-country-map-travel-guide.html</loc>
-<lastmod>2026-07-30</lastmod>
+<lastmod>2026-11-09</lastmod>
 <changefreq>yearly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -230,7 +230,7 @@
 </url>
 <url>
 <loc>https://www.staytexashillcountry.com/best-places-to-stay-near-bandera-tx.html</loc>
-<lastmod>2026-09-19</lastmod>
+<lastmod>2026-11-09</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -260,7 +260,7 @@
 </url>
 <url>
 <loc>https://www.staytexashillcountry.com/horseback-riding-longhorns-bandera-tx.html</loc>
-<lastmod>2026-09-19</lastmod>
+<lastmod>2026-11-09</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
@@ -351,5 +351,11 @@
 <url>
 <loc>https://www.staytexashillcountry.com/memaws-country-store.html</loc>
 <lastmod>2026-10-24</lastmod>
+</url>
+<url>
+<loc>https://www.staytexashillcountry.com/things-to-do-in-bandera-tx.html</loc>
+<lastmod>2026-11-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
 </url>
 </urlset>
