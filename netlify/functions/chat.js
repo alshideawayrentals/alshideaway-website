@@ -10,12 +10,6 @@ PROPERTY DETAILS:
 - Phone: 830-510-3331
 - Email: alshideawayrentals@gmail.com
 - Booking: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794
-- Booking links by type (share the one that matches what the guest wants):
-  - King-bed log cabins: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=2
-  - One-bedroom cabins with full kitchens (incl. MeMaw's): https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=6
-  - RV sites: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=3
-  - Tent / cowboy campsites: https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&roomClass=7
-- Store & cafe menu (MeMaw's Country Store, open to the public; lattes, energy drinks, smoothies, breakfast tacos, sandwiches; text orders to 830-271-3331; Early Bird pre-order by 8pm for 6:30am pickup, $10 min): https://www.staytexashillcountry.com/memaws-country-store.html
 - Award: Texas Campgrounds (TACO) Accommodations of the Year 2024
 - Rating: 4.9 stars, 555+ reviews
 
@@ -73,46 +67,60 @@ NEARBY ATTRACTIONS:
 === UPCOMING LOCAL EVENTS (update regularly) ===
 - Bandera Rodeo: FRIDAY nights each summer — Ridin On Faith Summer Rodeo Series at Mansfield Park Arena, typically late May through July. The 2026 season has wrapped for the year and returns next summer. Real cowboys, authentic Texas rodeo, 20 min from us. banderacowboycapital.com for details.
 - Lost Maples Fall Color: Peak late October through mid-November. Reserve state park day passes well in advance — sells out fast.
-- Fredericksburg Oktoberfest: First weekend in October on Main Street.
+- Fredericksburg Oktoberfest: annually the first weekend in October on Main Street.
+- Bandera Market Days: 1st Saturday of each month at the Bandera County Courthouse, 9 AM — local vendors, handmade goods, treats (next: Dec 5, 2026 and Jan 2, 2027).
 - Christmas in Comfort / Comfort holiday events: December
+- Bandera Honors Veterans: Sat Nov 14, 2026 — displays 9:30 AM, patriotic program 10:30 AM, Main Street parade at noon, free BBQ for veterans and spouses at the courthouse 1 PM.
+- Christmas Lights by Carriage Ride (Bandera): Fri Nov 27, 2026, 6-9 PM, from Trail Boss Steak & Grill (830-328-5022).
+- Country Christmas in the Park (Bandera City Park): Sun Nov 29, 2026, 4:30-6:30 PM — tree lighting, reindeer, crafts, food vendors, hot cocoa, live music.
+- Bandera Shoppers Jubilee Weekend: Dec 11-12, 2026 — Western scavenger hunt Fri-Sat, Christmas Market at the courthouse Sat 11 AM-7 PM, lighted Night Christmas Parade Sat 6:30 PM downtown.
+- Light Up Bandera holiday lights business challenge: lights on starting Dec 11, 2026 around town.
+- Flying L Ranch wagon rides, campfires & s'mores: select evenings this fall (call 830-796-7745).
 
 LIVE MUSIC VENUES NEARBY:
-- John T. Floore's Country Store (Helotes, ~30 min): legendary Texas honky-tonk where Willie Nelson got his start. Tickets at liveatfloores.com.
-- 11th Street Cowboy Bar (Bandera, ~20 min): "The Biggest Little Bar in Texas" — live country & western swing most Friday and Saturday nights at 8 PM. Steak Night every Wednesday: bring your own cut, grill it on their Texas-sized BBQ pit (includes baked potato, salad, roll) with live music. Labor Day Roundup weekend Sept 4-6, 2026. Schedule at 11thstcowboybar.com.
-- The 4 Way Bar & Grill (Lakehills, ~15 min, near Medina Lake): live music on weekends, Texas Hold 'Em and pool tournaments during the week. Family-friendly bar & grill. 4waybarandgrill.com.
+- John T. Floore's Country Store (Helotes, ~30 min): legendary Texas honky-tonk where Willie Nelson got his start. Winter concert lineup below. Tickets at liveatfloores.com.
+- 11th Street Cowboy Bar (Bandera, ~20 min): "The Biggest Little Bar in Texas" — live country & western swing most Friday and Saturday nights at 8 PM. Steak Night every Wednesday: bring your own cut, grill it on their Texas-sized BBQ pit (includes baked potato, salad, roll) with live music. Coming up: David Adam Byrnes (Nov 14), West Texas Exiles (Nov 21), Kin Faux (Nov 28), Two Tons Of Steel (Dec 5), Michael Martin Murphey (Dec 12), Billy Mata (Dec 19), Junior Brown New Year's Eve (Dec 31), Cowboy Mardi Gras (Jan 28-30, 2027). Steak Night Wednesdays through Nov 25. Schedule at 11thstcowboybar.com.
+- The 4 Way Bar & Grill (Lakehills, ~15 min, near Medina Lake): live music on weekends (check 4waybarandgrill.com or their Facebook page for the current lineup), Texas Hold 'Em and pool tournaments during the week. Family-friendly bar & grill. 4waybarandgrill.com.
 - Kickback Korner (402 Main St, Bandera, ~20 min): live music Tuesdays 7 PM, Fridays 9 PM, Saturdays 2-5 PM and 9 PM, Sunday Funday 5-9 PM, karaoke Thursdays 7 PM. They post each week's lineup on their Facebook page.
 
 MUSEUMS & FAMILY ATTRACTIONS IN BANDERA:
-- Bandera Natural History & Art Museum: life-size dinosaurs, wildlife dioramas, Ice Age animals on outdoor trails. banderanhm.org for current hours and events.
-- Frontier Times Museum: authentic Old West history museum. Cowboy Jamboree with live music and storytelling on the 4th Sunday of every month (next: August 23, 2026). frontiertimesmuseum.org.
+- Bandera Natural History & Art Museum: life-size dinosaurs, wildlife dioramas, Ice Age animals on outdoor trails. Open Wed-Sat 10 AM-5 PM, Sun noon-5 PM, closed Mon-Tue. Art Appreciation & Creation programs Nov 14 (10 AM-noon) and Nov 19. banderanhm.org.
+- Frontier Times Museum: authentic Old West history museum. Cowboy Jamboree with live music and storytelling on the 4th Sunday of every month, 1-4 PM, free (next: Nov 22 and Dec 27, 2026). Dressed Flea Market & Print Sale Nov 18-20, 10 AM-3 PM. Book signing for The Wretched and Undone Thu Nov 19, 5:30-7:30 PM. Spring Break Family Fun Mar 8-19, 2027. Native American Heritage Day Sat Nov 28, 11 AM-2 PM (frybread, beadwork, atlatl throwing). Bizarre Bazaar makers' market Sat Dec 12, 11 AM-7 PM, same day as the Bandera Shoppers Jubilee. frontiertimesmuseum.org.
 - Cowboys on Main: every Saturday at Western Trail Heritage Park in Bandera — FREE. Chuckwagon storytelling, Longhorn photo ops, horse-drawn wagon tours.
 
 ANNUAL AREA EVENTS (Bandera & Boerne):
-- Boerne Market Days: 2nd full weekend of every month on Main Plaza — handmade goods, local food, art (next: August 8-9, 2026).
+- Boerne Market Days: 2nd full weekend of every month on Main Plaza — handmade goods, local food, art (next: Nov 14-15 and Dec 12-13, 2026).
 - Boerne Abendkonzerte: free summer evening concerts at Main Plaza (Boerne Parks & Rec).
 - Berges Fest (Boerne): annual 3-day German heritage festival on Father's Day weekend each June, with parade on Main Street, free admission.
 - Flying L Ranch (Bandera): evening wagon rides, campfires and s'mores under the stars — check banderacowboycapital.com for dates.
-- Bandera Round-Up Longhorn Cattle Drive & Parade: Labor Day weekend — longhorns down Main Street.
+- Bandera Round-Up Longhorn Cattle Drive & Parade: every Labor Day weekend — longhorns down Main Street.
 - Kendall County Fair (Boerne): Labor Day weekend — carnival, livestock show, rodeo.
-- Dickens on Main (Boerne): Thanksgiving weekend — holiday wonderland with snow flurries, street performers, Santa.
+- Bandera County Fair: held each October — livestock shows, carnival rides, local food vendors.
+- Hill Country Mile Rod Run (Boerne): held each early October — Friday night Main Street cruise, Saturday show-and-shine downtown, live music, craft beer.
+- Dickens on Main (Boerne): Thanksgiving weekend (Nov 27-28, 2026) — holiday wonderland with snow flurries, street performers, Santa.
 - Cowboy Mardi Gras (Bandera): every February — Cajun-meets-cowboy parade, music, dancing.
 
-UPCOMING CONCERTS AT FLOORE'S COUNTRY STORE (2026):
-- Fri Aug 7: Aaron McBee and Lane Smith
-- Fri Aug 14: Logan Ryan Band
-- Sat Aug 15: Jon Wolfe
-- Sat Aug 22: Kat Hasty
-- Fri Aug 28: Colby Acuff
-- Sat Aug 29: William Beckmann
-- Sun Aug 30: Charley Crockett — Age of the Ram Tour
-- Sep 5-7 (Labor Day weekend): Robert Earl Keen's 5th Annual Homecoming Weekend — Sat: 30th Anniversary of No. 2 Live Dinner outdoor show; Sun: REK & Friends "A Night of Songs and Stories" with Suzy Bogguss, Ray Wylie Hubbard, and Steve Poltz; Mon: Fan Appreciation Day.
-- Fri Sep 18: Midland
-- Sat Sep 19: The Mavericks & Friends
-- Fri Sep 25: Billy Currington
-- Sat Sep 26: Clint Black
-- Fri Oct 2: Stephen Wilson Jr. with The Lone Bellow
-- Sat Oct 24: The Droptines
-(Events last refreshed August 1, 2026)
+UPCOMING CONCERTS AT FLOORE'S COUNTRY STORE (Winter 2026-27):
+- Nov 12: Corey Kent
+- Nov 13: Kyle Gates
+- Nov 14: Tanner Usrey
+- Nov 20-21: Braxton Keith — Real Damn Deal Tour, two nights
+- Nov 27: The Texases Thanksgiving Dance
+- Nov 28: Austin Meade
+- Dec 2: Koe Wetzel and Parker McCollum (SOLD OUT)
+- Dec 5: Shane Smith and the Saints
+- Dec 10: Redferrin
+- Dec 11: Kaitlin Butts
+- Dec 18: Henry Merchant
+- Dec 19: Kolby Cooper
+- Jan 15: Trey Gonzalez
+- Jan 16: Jason Boland & the Stragglers
+- Jan 22: The Wilder Blue
+- Feb 19: Giovannie and the Hired Guns
+- Apr 10: Warren Zeiders
+- May 1: Vincent Mason
+- May 27-28: Gavin Adcock, two nights
+(Events last refreshed November 12, 2026)
 === END EVENTS ===
 
 RULES:
