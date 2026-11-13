@@ -272,11 +272,14 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     .why-icon { font-size: 2.2rem; margin-bottom: 12px; }
     .why-item h3, .why-item .h3 { color: #2d2d2d; margin-bottom: 6px; }
     .why-item p { font-size: 0.87rem; }
+    .hero-see-cabins { display:block; margin-top:18px; color:#fff; font-weight:600; text-decoration:underline; text-underline-offset:4px; }
+    .page-hero { cursor:pointer; }
+    .cabin-img-link { display:block; }
   </style>
   <link rel="preload" as="image" href="images/cabins-exterior.webp" fetchpriority="high" media="(min-width: 641px)" />
   <link rel="preload" as="image" href="images/cabins-exterior-m.webp" fetchpriority="high" media="(max-width: 640px)" />
   <!-- PayPal Pay Later Messaging -->
-  <script
+  <script defer
     src="https://www.paypal.com/sdk/js?client-id=AdYIe4Fcsr87fkpnmkZw7wq08EIogBGKGoNakEY8C7NaR2kJZn5gDyPzMKKQwZY0xDZhJvVWpQ3ELES1&components=messages"
     data-namespace="PayPalSDK">
   </script>
@@ -412,6 +415,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p>13 handcrafted log cabins on 20 scenic acres, including four one-bedroom cabins with full kitchens. Pet-friendly, no cleaning fees, no pet fees. Book direct and save.</p>
   <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&amp;roomClass=2" target="_blank">Check Availability & Book</a>
   <a class="btn btn-secondary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&amp;roomClass=6" target="_blank">One-Bedroom Cabins with Kitchens</a>
+  <a class="hero-see-cabins" href="#choose-cabin">See all 13 cabins &darr;</a>
 </section>
 
 <!-- PROMO BAR -->
@@ -429,36 +433,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
-<!-- CABINS BY TOWN -->
-<section class="section">
-<div class="container centered">
-<h2>Log Cabins Near Bandera, Boerne, Helotes &amp; San Antonio</h2>
-<p class="prose2">Our cabins sit in Pipe Creek, 15 minutes from Bandera and Boerne, about 20 minutes from Helotes and about 35 minutes from downtown San Antonio. Four are one-bedroom cabins with full kitchens, and MeMaw's Cabin is a one-bedroom with a fenced-in yard. Pets are always free. Pick the town closest to your plans:</p>
-<div class="town-grid">
-<div class="town-card2"><span class="dist2">About 35 min</span><h3>San Antonio</h3><p>A Hill Country escape from the city: real log cabins, a pool and dark skies. Our owners are Visit San Antonio SA Hospitality Champions.</p><a class="more" href="cabins-and-rv-sites-near-san-antonio-tx.html">Cabins &amp; RV sites near San Antonio &rarr;</a></div>
-<div class="town-card2"><span class="dist2">15 min</span><h3>Boerne</h3><p>Skip the hotel: log cabins and full-hookup RV sites 15 minutes from Boerne's Main Street.</p><a class="more" href="hotels-and-places-to-stay-near-boerne-tx.html">Hotels &amp; places to stay near Boerne &rarr;</a></div>
-<div class="town-card2"><span class="dist2">20 min</span><h3>Helotes</h3><p>Up Highway 16 from Helotes: cabins, RV sites and campsites in the Hill Country, about 20 minutes away.</p><a class="more" href="places-to-stay-near-helotes-tx.html">Places to stay near Helotes &rarr;</a></div>
-<div class="town-card2"><span class="dist2">15 min</span><h3>Bandera</h3><p>Comparing Bandera hotels, motels and RV parks? See how a quiet stay 15 minutes from the Cowboy Capital of the World stacks up.</p><a class="more" href="best-places-to-stay-near-bandera-tx.html">Hotels, motels &amp; places to stay near Bandera &rarr;</a></div>
-</div>
-</div>
-</section>
-
-<!-- WHY BOOK DIRECT -->
-<section class="section section-alt">
-  <div class="container centered">
-    <h2>Why Book Direct at Al's Hideaway?</h2>
-    <p>Skip the booking platforms and save. When you book directly through us, you keep more money and get better service.</p>
-    <div class="why-grid">
-      <div class="why-item"><div class="why-icon">💰</div><h3>Best Price Guaranteed</h3><p>Use code <strong>FUN</strong> for 10% off 2+ nights. No platform markup, no surprises.</p></div>
-      <div class="why-item"><div class="why-icon">🧹</div><h3>No Cleaning Fees</h3><p>What you see is what you pay. We never tack on cleaning fees at checkout.</p></div>
-      <div class="why-item"><div class="why-icon">🐾</div><h3>No Pet Fees</h3><p>Bring your dogs. Bring two. We've never charged a pet fee and never will.</p></div>
-      <div class="why-item"><div class="why-icon">🤠</div><h3>On-Site Owners</h3><p>Gordon & Jennifer live on the property. Real help from real people — no call centers.</p></div><div class="why-item"><div class="why-icon">🗓️</div><h3>Paid Off Before You Arrive</h3><p>Book 14+ days out and split it — 50% today, the rest auto-charged 14 days before arrival. Show up with nothing to pay but s'mores.</p></div>
-    </div>
-  </div>
-</section>
-
 <!-- CABINS -->
-<section class="section">
+<section class="section" id="choose-cabin">
   <div class="container">
     <div class="cabin-section-intro">
       <h2>Choose Your Cabin — All 13 Available to Book Direct</h2>
@@ -487,144 +463,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="cabin-grid">
 
-      <!-- Cabin 1 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin1.webp" alt="Cabin #1 at Al's Hideaway — cozy king bed retreat with Texas flag headboard" loading="lazy" />
+      <!-- MeMaw's -->
+      <div class="cabin-card" data-type="queen kitchen">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=773" target="_blank" aria-label="Book MeMaw's Cabin"><img src="images/memaws.webp" alt="MeMaw's Cabin at Al's Hideaway — surrounded by trees with private fenced yard" loading="lazy" /></a>
         <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Kitchenette · Private Bath</span>
-          <div class="h3">Cabin #1 — Hill Country Sanctuary</div>
-          <p>A cozy king-bed retreat with private bath and kitchenette. The perfect couple's getaway in the heart of the Hill Country.</p>
+          <span class="cabin-tag cabin-tag-featured">⭐ Guest Favorite · Fenced Yard</span>
+          <div class="h3">MeMaw's Cabin — Guest & Pet Favorite</div>
+          <p>Queen bed, full kitchen, spacious living area, and a private fenced yard. The most-loved cabin at Al's Hideaway — perfect for couples and pet owners.</p>
           <ul class="amenity-list">
-            <li>King Bed</li><li>Kitchenette</li><li>Private Bath</li><li>A/C & Heat</li><li>WiFi</li>
+            <li>Queen Bed</li><li>Full Kitchen</li><li>Fenced Yard</li><li>Living Room</li><li>WiFi</li>
           </ul>
           <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=1" target="_blank">Book Cabin #1</a>
-        </div>
-      </div>
-
-      <!-- Cabin 2 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin2.webp" alt="Cabin #2 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
-          <div class="h3">Cabin #2 — Family-Friendly Cabin</div>
-          <p>King bed plus two leather chairs that pull out into twin beds — ideal for families or groups of up to 4.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=4" target="_blank">Book Cabin #2</a>
-        </div>
-      </div>
-
-      <!-- Cabin 3 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin3.webp" alt="Cabin #3 at Al's Hideaway — log cabin exterior with yellow porch chairs" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
-          <div class="h3">Cabin #3 — King Cabin Near Bandera</div>
-          <p>King bed and two leather chairs that convert to twin beds. Warm, comfortable, and just minutes from Bandera.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=3" target="_blank">Book Cabin #3</a>
-        </div>
-      </div>
-
-      <!-- Cabin 4 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin4.webp" alt="Cabin #4 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
-          <div class="h3">Cabin #4 — Cozy King Cabin</div>
-          <p>King-size bed plus a full futon for extra sleeping space. A peaceful Hill Country retreat designed for total relaxation.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=2" target="_blank">Book Cabin #4</a>
-        </div>
-      </div>
-
-      <!-- Cabin 5 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin5.webp" alt="Cabin #5 at Al's Hideaway — log cabin with covered porch and yellow chairs" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
-          <div class="h3">Cabin #5 — King Cabin with Futon</div>
-          <p>King bed and a full-size futon — flexible sleeping for couples or friends exploring the Hill Country.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=5" target="_blank">Book Cabin #5</a>
-        </div>
-      </div>
-
-      <!-- Cabin 6 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin6.webp" alt="Cabin #6 at Al's Hideaway — log cabin exterior with covered porch and picnic table" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
-          <div class="h3">Cabin #6 — Hill Country Charm</div>
-          <p>King bed and full-size futon with classic Hill Country character. A favorite with couples and riders alike.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=6" target="_blank">Book Cabin #6</a>
-        </div>
-      </div>
-
-      <!-- Cabin 7 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin7.webp" alt="Cabin #7 at Al's Hideaway — log cabin with wide covered porch and ramp" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Leather Sofa · Sleeps 3</span>
-          <div class="h3">Cabin #7 — Relaxing Hill Country Vibe</div>
-          <p>King bed and leather sofa. A warm, inviting space perfect for unwinding after a day of riding or exploring.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Leather Sofa</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=10" target="_blank">Book Cabin #7</a>
-        </div>
-      </div>
-
-      <!-- Cabin 8 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin8.webp" alt="Cabin #8 at Al's Hideaway — bedroom with cowhide wall decor and Texas star door" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
-          <div class="h3">Cabin #8 — King Cabin with Pull-Out Chairs</div>
-          <p>King bed plus two leather chairs that convert to twin beds — great for couples or two friends on a road trip.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=19" target="_blank">Book Cabin #8</a>
-        </div>
-      </div>
-
-      <!-- Cabin 9 -->
-      <div class="cabin-card" data-type="king">
-        <img src="images/cabin9.webp" alt="Cabin #9 at Al's Hideaway — log cabin exterior with warm evening porch lights" loading="lazy" />
-        <div class="cabin-card-body">
-          <span class="cabin-tag">King Bed · Sleeper Chairs · Sleeps 4</span>
-          <div class="h3">Cabin #9 — Flexible Layout</div>
-          <p>King bed and leather sleeper chairs — one of our most flexible setups for couples, friends, or small groups.</p>
-          <ul class="amenity-list">
-            <li>King Bed</li><li>Sleeper Chairs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
-          </ul>
-          <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=43" target="_blank">Book Cabin #9</a>
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=773" target="_blank">Book MeMaw's Cabin</a>
         </div>
       </div>
 
       <!-- Cabin 10 -->
       <div class="cabin-card" data-type="queen kitchen">
-        <img src="images/cabin10.webp" alt="Cabin #10 at Al's Hideaway — cabin exterior with yellow Adirondack chairs on porch" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=42" target="_blank" aria-label="Book Cabin #10"><img src="images/cabin10.webp" alt="Cabin #10 at Al's Hideaway — cabin exterior with yellow Adirondack chairs on porch" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">Queen Bed · Sleeper Sofa · Full Kitchen · Sleeps 4</span>
           <div class="h3">Cabin #10 — One-Bedroom with Full Kitchen</div>
@@ -639,7 +495,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <!-- Cabin 11 -->
       <div class="cabin-card" data-type="queen kitchen">
-        <img src="images/cabin11.webp" alt="Cabin #11 at Al's Hideaway — full kitchen with stainless steel appliances" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=47" target="_blank" aria-label="Book Cabin #11"><img src="images/cabin11.webp" alt="Cabin #11 at Al's Hideaway — full kitchen with stainless steel appliances" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">Queen Bed · Full Kitchen · Sleeps 2</span>
           <div class="h3">Cabin #11 — Cozy One-Bedroom with Kitchen</div>
@@ -654,7 +510,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <!-- Cabin 12 -->
       <div class="cabin-card" data-type="queen kitchen">
-        <img src="images/cabin12.webp" alt="Cabin #12 at Al's Hideaway — log cabin exterior with covered porch" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=48" target="_blank" aria-label="Book Cabin #12"><img src="images/cabin12.webp" alt="Cabin #12 at Al's Hideaway — log cabin exterior with covered porch" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">Queen Bed · Full Kitchen · Living Room · Sleeps 2</span>
           <div class="h3">Cabin #12 — One-Bedroom with Kitchen</div>
@@ -667,18 +523,138 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
 
-      <!-- MeMaw's -->
-      <div class="cabin-card" data-type="queen kitchen">
-        <img src="images/memaws.webp" alt="MeMaw's Cabin at Al's Hideaway — surrounded by trees with private fenced yard" loading="lazy" />
+      <!-- Cabin 1 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=1" target="_blank" aria-label="Book Cabin #1"><img src="images/cabin1.webp" alt="Cabin #1 at Al's Hideaway — cozy king bed retreat with Texas flag headboard" loading="lazy" /></a>
         <div class="cabin-card-body">
-          <span class="cabin-tag cabin-tag-featured">⭐ Guest Favorite · Fenced Yard</span>
-          <div class="h3">MeMaw's Cabin — Guest & Pet Favorite</div>
-          <p>Queen bed, full kitchen, spacious living area, and a private fenced yard. The most-loved cabin at Al's Hideaway — perfect for couples and pet owners.</p>
+          <span class="cabin-tag">King Bed · Kitchenette · Private Bath</span>
+          <div class="h3">Cabin #1 — Hill Country Sanctuary</div>
+          <p>A cozy king-bed retreat with private bath and kitchenette. The perfect couple's getaway in the heart of the Hill Country.</p>
           <ul class="amenity-list">
-            <li>Queen Bed</li><li>Full Kitchen</li><li>Fenced Yard</li><li>Living Room</li><li>WiFi</li>
+            <li>King Bed</li><li>Kitchenette</li><li>Private Bath</li><li>A/C & Heat</li><li>WiFi</li>
           </ul>
           <br />
-          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=773" target="_blank">Book MeMaw's Cabin</a>
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=1" target="_blank">Book Cabin #1</a>
+        </div>
+      </div>
+
+      <!-- Cabin 2 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=4" target="_blank" aria-label="Book Cabin #2"><img src="images/cabin2.webp" alt="Cabin #2 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" /></a>
+        <div class="cabin-card-body">
+          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
+          <div class="h3">Cabin #2 — Family-Friendly Cabin</div>
+          <p>King bed plus two leather chairs that pull out into twin beds — ideal for families or groups of up to 4.</p>
+          <ul class="amenity-list">
+            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
+          </ul>
+          <br />
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=4" target="_blank">Book Cabin #2</a>
+        </div>
+      </div>
+
+      <!-- Cabin 3 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=3" target="_blank" aria-label="Book Cabin #3"><img src="images/cabin3.webp" alt="Cabin #3 at Al's Hideaway — log cabin exterior with yellow porch chairs" loading="lazy" /></a>
+        <div class="cabin-card-body">
+          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
+          <div class="h3">Cabin #3 — King Cabin Near Bandera</div>
+          <p>King bed and two leather chairs that convert to twin beds. Warm, comfortable, and just minutes from Bandera.</p>
+          <ul class="amenity-list">
+            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
+          </ul>
+          <br />
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=3" target="_blank">Book Cabin #3</a>
+        </div>
+      </div>
+
+      <!-- Cabin 4 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=2" target="_blank" aria-label="Book Cabin #4"><img src="images/cabin4.webp" alt="Cabin #4 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" /></a>
+        <div class="cabin-card-body">
+          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
+          <div class="h3">Cabin #4 — Cozy King Cabin</div>
+          <p>King-size bed plus a full futon for extra sleeping space. A peaceful Hill Country retreat designed for total relaxation.</p>
+          <ul class="amenity-list">
+            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
+          </ul>
+          <br />
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=2" target="_blank">Book Cabin #4</a>
+        </div>
+      </div>
+
+      <!-- Cabin 5 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=5" target="_blank" aria-label="Book Cabin #5"><img src="images/cabin5.webp" alt="Cabin #5 at Al's Hideaway — log cabin with covered porch and yellow chairs" loading="lazy" /></a>
+        <div class="cabin-card-body">
+          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
+          <div class="h3">Cabin #5 — King Cabin with Futon</div>
+          <p>King bed and a full-size futon — flexible sleeping for couples or friends exploring the Hill Country.</p>
+          <ul class="amenity-list">
+            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
+          </ul>
+          <br />
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=5" target="_blank">Book Cabin #5</a>
+        </div>
+      </div>
+
+      <!-- Cabin 6 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=6" target="_blank" aria-label="Book Cabin #6"><img src="images/cabin6.webp" alt="Cabin #6 at Al's Hideaway — log cabin exterior with covered porch and picnic table" loading="lazy" /></a>
+        <div class="cabin-card-body">
+          <span class="cabin-tag">King Bed · Full Futon · Sleeps 3</span>
+          <div class="h3">Cabin #6 — Hill Country Charm</div>
+          <p>King bed and full-size futon with classic Hill Country character. A favorite with couples and riders alike.</p>
+          <ul class="amenity-list">
+            <li>King Bed</li><li>Full Futon</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
+          </ul>
+          <br />
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=6" target="_blank">Book Cabin #6</a>
+        </div>
+      </div>
+
+      <!-- Cabin 7 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=10" target="_blank" aria-label="Book Cabin #7"><img src="images/cabin7.webp" alt="Cabin #7 at Al's Hideaway — log cabin with wide covered porch and ramp" loading="lazy" /></a>
+        <div class="cabin-card-body">
+          <span class="cabin-tag">King Bed · Leather Sofa · Sleeps 3</span>
+          <div class="h3">Cabin #7 — Relaxing Hill Country Vibe</div>
+          <p>King bed and leather sofa. A warm, inviting space perfect for unwinding after a day of riding or exploring.</p>
+          <ul class="amenity-list">
+            <li>King Bed</li><li>Leather Sofa</li><li>Sleeps 3</li><li>A/C & Heat</li><li>WiFi</li>
+          </ul>
+          <br />
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=10" target="_blank">Book Cabin #7</a>
+        </div>
+      </div>
+
+      <!-- Cabin 8 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=19" target="_blank" aria-label="Book Cabin #8"><img src="images/cabin8.webp" alt="Cabin #8 at Al's Hideaway — bedroom with cowhide wall decor and Texas star door" loading="lazy" /></a>
+        <div class="cabin-card-body">
+          <span class="cabin-tag">King Bed · Twin Pull-Out Chairs · Sleeps 4</span>
+          <div class="h3">Cabin #8 — King Cabin with Pull-Out Chairs</div>
+          <p>King bed plus two leather chairs that convert to twin beds — great for couples or two friends on a road trip.</p>
+          <ul class="amenity-list">
+            <li>King Bed</li><li>Twin Pull-Outs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
+          </ul>
+          <br />
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=19" target="_blank">Book Cabin #8</a>
+        </div>
+      </div>
+
+      <!-- Cabin 9 -->
+      <div class="cabin-card" data-type="king">
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=43" target="_blank" aria-label="Book Cabin #9"><img src="images/cabin9.webp" alt="Cabin #9 at Al's Hideaway — log cabin exterior with warm evening porch lights" loading="lazy" /></a>
+        <div class="cabin-card-body">
+          <span class="cabin-tag">King Bed · Sleeper Chairs · Sleeps 4</span>
+          <div class="h3">Cabin #9 — Flexible Layout</div>
+          <p>King bed and leather sleeper chairs — one of our most flexible setups for couples, friends, or small groups.</p>
+          <ul class="amenity-list">
+            <li>King Bed</li><li>Sleeper Chairs</li><li>Sleeps 4</li><li>A/C & Heat</li><li>WiFi</li>
+          </ul>
+          <br />
+          <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=43" target="_blank">Book Cabin #9</a>
         </div>
       </div>
 
@@ -686,6 +662,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div style="text-align:center; margin-top:44px;">
       <a class="btn btn-outline" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/map?tabID=9&mapID=2" target="_blank">View Full Campground Map</a>
+    </div>
+  </div>
+</section>
+
+<!-- CABINS BY TOWN -->
+<section class="section section-alt">
+<div class="container centered">
+<h2>Log Cabins Near Bandera, Boerne, Helotes &amp; San Antonio</h2>
+<p class="prose2">Our cabins sit in Pipe Creek, 15 minutes from Bandera and Boerne, about 20 minutes from Helotes and about 35 minutes from downtown San Antonio. Four are one-bedroom cabins with full kitchens, and MeMaw's Cabin is a one-bedroom with a fenced-in yard. Pets are always free. Pick the town closest to your plans:</p>
+<div class="town-grid">
+<div class="town-card2"><span class="dist2">About 35 min</span><h3>San Antonio</h3><p>A Hill Country escape from the city: real log cabins, a pool and dark skies. Our owners are Visit San Antonio SA Hospitality Champions.</p><a class="more" href="cabins-and-rv-sites-near-san-antonio-tx.html">Cabins &amp; RV sites near San Antonio &rarr;</a></div>
+<div class="town-card2"><span class="dist2">15 min</span><h3>Boerne</h3><p>Skip the hotel: log cabins and full-hookup RV sites 15 minutes from Boerne's Main Street.</p><a class="more" href="hotels-and-places-to-stay-near-boerne-tx.html">Hotels &amp; places to stay near Boerne &rarr;</a></div>
+<div class="town-card2"><span class="dist2">20 min</span><h3>Helotes</h3><p>Up Highway 16 from Helotes: cabins, RV sites and campsites in the Hill Country, about 20 minutes away.</p><a class="more" href="places-to-stay-near-helotes-tx.html">Places to stay near Helotes &rarr;</a></div>
+<div class="town-card2"><span class="dist2">15 min</span><h3>Bandera</h3><p>Comparing Bandera hotels, motels and RV parks? See how a quiet stay 15 minutes from the Cowboy Capital of the World stacks up.</p><a class="more" href="best-places-to-stay-near-bandera-tx.html">Hotels, motels &amp; places to stay near Bandera &rarr;</a></div>
+</div>
+</div>
+</section>
+
+<!-- WHY BOOK DIRECT -->
+<section class="section">
+  <div class="container centered">
+    <h2>Why Book Direct at Al's Hideaway?</h2>
+    <p>Skip the booking platforms and save. When you book directly through us, you keep more money and get better service.</p>
+    <div class="why-grid">
+      <div class="why-item"><div class="why-icon">💰</div><h3>Best Price Guaranteed</h3><p>Use code <strong>FUN</strong> for 10% off 2+ nights. No platform markup, no surprises.</p></div>
+      <div class="why-item"><div class="why-icon">🧹</div><h3>No Cleaning Fees</h3><p>What you see is what you pay. We never tack on cleaning fees at checkout.</p></div>
+      <div class="why-item"><div class="why-icon">🐾</div><h3>No Pet Fees</h3><p>Bring your dogs. Bring two. We've never charged a pet fee and never will.</p></div>
+      <div class="why-item"><div class="why-icon">🤠</div><h3>On-Site Owners</h3><p>Gordon & Jennifer live on the property. Real help from real people — no call centers.</p></div><div class="why-item"><div class="why-icon">🗓️</div><h3>Paid Off Before You Arrive</h3><p>Book 14+ days out and split it — 50% today, the rest auto-charged 14 days before arrival. Show up with nothing to pay but s'mores.</p></div>
     </div>
   </div>
 </section>
@@ -1046,5 +1050,13 @@ function filterCabins(type, btn) {
 </script>
 <!-- ── END AI CONCIERGE WIDGET ── -->
 
+<script>
+/* Visitors tap the big hero photo/text expecting it to go somewhere:
+   send those taps down to the cabin list (buttons still work as normal). */
+document.querySelector('.page-hero').addEventListener('click', function (e) {
+  if (e.target.closest('a, button')) return;
+  document.getElementById('choose-cabin').scrollIntoView({ behavior: 'smooth' });
+});
+</script>
 </body>
 </html>
