@@ -268,6 +268,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
   <link rel="preload" as="image" href="images/aerial-property.webp" fetchpriority="high" media="(min-width: 641px)" />
   <link rel="preload" as="image" href="images/aerial-property-m.webp" fetchpriority="high" media="(max-width: 640px)" />
+<style>.hero-see-cabins{display:block;margin-top:18px;color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:4px}.page-hero{cursor:pointer}</style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -307,6 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <h1>Hotels &amp; Places to Stay Near Boerne, TX</h1>
 <p>Boerne is having a moment. Here is how in-town hotels compare with a quiet Hill Country stay 15 minutes down Highway 46.</p>
 <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&amp;roomClass=2" target="_blank">Check Availability &amp; Book</a>
+<a class="hero-see-cabins" href="/cabins.html">See our log cabins &rarr;</a>
 </section>
 
 <div class="promo-bar">
@@ -525,5 +527,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </footer>
 <script src="concierge.js" defer></script>
+<script>
+/* Visitors tap the big top photo/text expecting it to go somewhere:
+   send those taps to the cabins page (buttons and links still work as normal). */
+document.querySelector('.page-hero').addEventListener('click', function (e) {
+  if (e.target.closest('a, button')) return;
+  window.location.href = '/cabins.html';
+});
+</script>
 </body>
 </html>
