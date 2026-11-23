@@ -1180,5 +1180,18 @@ main > .store-strip { order: 0; }
 </script>
 <!-- ── END AI CONCIERGE WIDGET ── -->
 
+<style>.cabin-card { cursor:pointer; }</style>
+<script>
+/* Visitors tap a cabin's photo or details expecting it to open:
+   make the whole card open that cabin's booking page. */
+document.querySelectorAll('.cabin-card').forEach(function (card) {
+  var btn = card.querySelector('.cabin-book-btn');
+  if (!btn) return;
+  card.addEventListener('click', function (e) {
+    if (e.target.closest('a, button')) return;
+    window.open(btn.href, '_blank', 'noopener');
+  });
+});
+</script>
 </body>
 </html>
