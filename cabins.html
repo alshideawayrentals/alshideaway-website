@@ -275,6 +275,7 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     .hero-see-cabins { display:block; margin-top:18px; color:#fff; font-weight:600; text-decoration:underline; text-underline-offset:4px; }
     .page-hero { cursor:pointer; }
     .cabin-img-link { display:block; }
+    .cabin-card { cursor:pointer; }
   </style>
   <link rel="preload" as="image" href="images/cabins-exterior.webp" fetchpriority="high" media="(min-width: 641px)" />
   <link rel="preload" as="image" href="images/cabins-exterior-m.webp" fetchpriority="high" media="(max-width: 640px)" />
@@ -433,7 +434,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="section" id="choose-cabin">
   <div class="container">
     <div class="cabin-section-intro">
-      <h2>Choose Your Cabin — All 13 Available to Book Direct</h2>
+      <h2><a href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&amp;roomClass=2" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">Choose Your Cabin — All 13 Available to Book Direct</a></h2>
       <p style="color:var(--muted); max-width:640px; margin:0 auto 32px;">Filter by sleeping arrangement or browse them all. Each cabin is handcrafted and unique — click any card to reserve your exact dates.</p>
     </div>
 
@@ -1063,6 +1064,18 @@ function filterCabins(type, btn) {
 document.querySelector('.page-hero').addEventListener('click', function (e) {
   if (e.target.closest('a, button')) return;
   document.getElementById('choose-cabin').scrollIntoView({ behavior: 'smooth' });
+});
+</script>
+<script>
+/* Visitors tap a cabin's details (King Bed, Full Kitchen, etc.) expecting it to open:
+   make the whole card open that cabin's booking page. */
+document.querySelectorAll('.cabin-card').forEach(function (card) {
+  var btn = card.querySelector('.cabin-book-btn');
+  if (!btn) return;
+  card.addEventListener('click', function (e) {
+    if (e.target.closest('a, button')) return;
+    window.open(btn.href, '_blank', 'noopener');
+  });
 });
 </script>
 </body>
