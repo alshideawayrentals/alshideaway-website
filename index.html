@@ -358,6 +358,7 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
 .social-links a { color: rgba(255,255,255,0.60); transition: color 0
 </style>
   <style>
+    .cabin-img-link{display:block}.cabin-name-link{color:inherit;text-decoration:none}.cabin-name-link:hover{text-decoration:underline}
     /* ── HERO (homepage only) ── */
     .hero {
       position: relative; min-height: 92vh; display: flex; align-items: center; overflow: hidden;
@@ -365,17 +366,16 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     }
     /* Photo slideshow: slow zoom + crossfade, 6s per photo */
     .hero-slides { position: absolute; inset: 0; z-index: 0; }
-    .hero-slides .slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; animation: heroSlide 30s linear infinite; will-change: opacity, transform; }
-    .hero-slides .slide:nth-child(1) { background-image: url('images/hero-s1.webp'); animation-delay: -1s; }
-    .hero-slides .slide:nth-child(2) { background-image: url('images/hero-s2.webp'); animation-delay: 5s; }
+    .hero-slides .slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; animation: heroSlide 24s linear infinite; will-change: opacity, transform; }
+    .hero-slides .slide:nth-child(1) { background-image: url('images/hero-s5.webp'); animation-delay: -1s; }
+    .hero-slides .slide:nth-child(2) { background-image: url('images/hero-winter-cabin.webp'); animation-delay: 5s; }
     .hero-slides .slide:nth-child(3) { background-image: url('images/hero-s3.webp'); animation-delay: 11s; }
-    .hero-slides .slide:nth-child(4) { background-image: url('images/hero-s4.webp'); animation-delay: 17s; }
-    .hero-slides .slide:nth-child(5) { background-image: url('images/hero-s5.webp'); animation-delay: 23s; }
+    .hero-slides .slide:nth-child(4) { background-image: url('images/hero-s2.webp'); animation-delay: 17s; }
     @keyframes heroSlide {
       0% { opacity: 0; transform: scale(1); }
-      4% { opacity: 1; }
-      20% { opacity: 1; }
-      24% { opacity: 0; transform: scale(1.09); }
+      5% { opacity: 1; }
+      25% { opacity: 1; }
+      30% { opacity: 0; transform: scale(1.09); }
       100% { opacity: 0; transform: scale(1.09); }
     }
     .hero::before { content: ''; position: absolute; inset: 0; z-index: 1; background: linear-gradient(to bottom, rgba(10,30,10,0.45) 0%, rgba(10,30,10,0.30) 50%, rgba(10,30,10,0.70) 100%); }
@@ -386,11 +386,10 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     }
     /* Phones: photos on top, clear and bright; words and buttons below */
     @media (max-width: 640px) {
-      .hero-slides .slide:nth-child(1) { background-image: url('images/hero-s1-m.webp'); }
-      .hero-slides .slide:nth-child(2) { background-image: url('images/hero-s2-m.webp'); }
+      .hero-slides .slide:nth-child(1) { background-image: url('images/hero-s5-m.webp'); }
+      .hero-slides .slide:nth-child(2) { background-image: url('images/hero-winter-cabin-m.webp'); }
       .hero-slides .slide:nth-child(3) { background-image: url('images/hero-s3-m.webp'); }
-      .hero-slides .slide:nth-child(4) { background-image: url('images/hero-s4-m.webp'); }
-      .hero-slides .slide:nth-child(5) { background-image: url('images/hero-s5-m.webp'); }
+      .hero-slides .slide:nth-child(4) { background-image: url('images/hero-s2-m.webp'); }
     }
     .hero-content { max-width: 780px; margin: 0 auto; }
     .hero h1 { font-size: clamp(2.4rem, 6vw, 4rem); color: #fff; margin-bottom: 20px; text-shadow: 0 2px 20px rgba(0,0,0,0.4); }
@@ -400,8 +399,8 @@ footer { background: #2d2d2d; color: rgba(255,255,255,0.68); padding: 56px 24px 
     .perk-chip { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.30); color: #fff; padding: 7px 16px; border-radius: 100px; font-size: 0.83rem; font-weight: 500; }
     .perk-chip::before { content: '✓ '; }
   </style>
-  <link rel="preload" as="image" href="images/hero-s1.webp" fetchpriority="high" media="(min-width: 641px)" />
-  <link rel="preload" as="image" href="images/hero-s1-m.webp" fetchpriority="high" media="(max-width: 640px)" />
+  <link rel="preload" as="image" href="images/hero-s5.webp" fetchpriority="high" media="(min-width: 641px)" />
+  <link rel="preload" as="image" href="images/hero-s5-m.webp" fetchpriority="high" media="(max-width: 640px)" />
 <style>
 .town-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 36px; text-align: left; }
 @media(max-width: 1000px) { .town-grid { grid-template-columns: 1fr 1fr; } }
@@ -501,7 +500,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <main>
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-slides" role="img" aria-label="Fall log cabin, aerial view of the campground, cozy cabin bedroom, swimming pool and stone fireplace at Al's Hideaway in Pipe Creek, TX"><div class="slide"></div><div class="slide"></div><div class="slide"></div><div class="slide"></div><div class="slide"></div></div>
+  <div class="hero-slides" role="img" aria-label="Stone fireplace, log cabin porch on a winter evening, cozy cabin bedroom and aerial view of the campground at Al's Hideaway in Pipe Creek, TX"><div class="slide"></div><div class="slide"></div><div class="slide"></div><div class="slide"></div></div>
   <div class="hero-content">
     <div class="hero-badge">Pipe Creek, Texas · Texas Hill Country</div>
     <h1>Pet-Friendly Cabin Rentals & RV Sites in the Texas Hill Country</h1>
@@ -521,6 +520,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </section>
+<!-- PANCAKES WITH SANTA (Dec 2026) -->
+<section class="santa-strip" style="background:#f7f1e6;padding:36px 20px;">
+  <div style="max-width:900px;margin:0 auto;display:flex;gap:28px;align-items:center;flex-wrap:wrap;justify-content:center;">
+    <img src="images/pancakes-with-santa.webp" alt="Santa hugging a young guest outside at Al's Hideaway in Pipe Creek, TX" width="260" height="256" loading="lazy" style="width:260px;max-width:100%;height:auto;border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.15);" />
+    <div style="flex:1;min-width:240px;text-align:left;">
+      <p style="margin:0 0 6px;font-weight:600;color:#a0522d;letter-spacing:.04em;text-transform:uppercase;font-size:.85rem;">This is where Santa spends his winter</p>
+      <h2 style="margin:0 0 10px;font-size:1.7rem;">Pancakes with Santa · Saturday, Dec 12</h2>
+      <p style="margin:0 0 16px;">Breakfast with Santa right here at Al&#39;s Hideaway. Bring the kids, bring the dog, and take all the photos you want. Make a weekend of it with a cozy log cabin and Bandera&#39;s lighted Christmas parade that evening.</p>
+      <a class="btn btn-primary" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?NewSearch=1&amp;roomClass=2" target="_blank">Book Your December Cabin</a>
+      <a href="hill-country-christmas-december-2026-boerne-bandera-helotes.html" style="margin-left:14px;font-weight:600;">December events guide &rarr;</a>
+    </div>
+  </div>
+</section>
+
 
 <!-- PROMO BANNER -->
 <div class="promo-banner" style="background: #b85c2a; color: #fff; text-align: center; padding: 14px 24px;">
@@ -571,7 +584,7 @@ main > .store-strip { order: 0; }
 <div class="town-card2"><span class="dist2">20 min</span><h3>Helotes</h3><p>Up Highway 16 from Helotes: cabins, RV sites and campsites in the Hill Country, about 20 minutes away.</p><a class="more" href="places-to-stay-near-helotes-tx.html">Places to stay near Helotes &rarr;</a></div>
 <div class="town-card2"><span class="dist2">15 min</span><h3>Bandera</h3><p>Compare in-town lodging with real log cabins 15 minutes from the Cowboy Capital of the World.</p><a class="more" href="cabins.html">Bandera cabins &rarr;</a><br><a class="more" href="best-places-to-stay-near-bandera-tx.html">Hotels, motels &amp; places to stay near Bandera &rarr;</a><br><a class="more" href="things-to-do-in-bandera-tx.html">Things to do in Bandera &rarr;</a></div>
 </div>
-<p class="prose2" style="margin-top:28px;">Planning the holidays? See our <a href="thanksgiving-cabin-getaway-texas-hill-country.html">Thanksgiving cabin getaway guide</a> and our <a href="hill-country-christmas-december-2026-boerne-bandera-helotes.html">Hill Country Christmas guide</a>.</p>
+<p class="prose2" style="margin-top:28px;">Planning the holidays? See our <a href="christmas-to-new-years-week-cabin-getaway-texas-hill-country.html">Christmas-to-New-Year's week cabin guide</a> and our <a href="hill-country-christmas-december-2026-boerne-bandera-helotes.html">Hill Country Christmas guide</a>.</p>
 </div>
 </section>
 
@@ -605,10 +618,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 1 -->
       <div class="cabin-card">
-        <img src="images/cabin1.webp" alt="Cabin #1 at Al's Hideaway Texas Hill Country — Texas flag headboard king bed" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=1" target="_blank" aria-label="Book Cabin #1"><img src="images/cabin1.webp" alt="Cabin #1 at Al's Hideaway Texas Hill Country — Texas flag headboard king bed" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Kitchenette · Private Bath</span>
-          <div class="h3">Cabin #1 — Hill Country Sanctuary</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=1" target="_blank">Cabin #1 — Hill Country Sanctuary</a></div>
           <p>A cozy king-bed retreat with private bath and kitchenette. The perfect couple's getaway in the heart of the Hill Country.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=1" target="_blank">Book Cabin #1</a>
         </div>
@@ -616,10 +629,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 2 -->
       <div class="cabin-card">
-        <img src="images/cabin2.webp" alt="Cabin #2 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=4" target="_blank" aria-label="Book Cabin #2"><img src="images/cabin2.webp" alt="Cabin #2 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Twin Pull-Out Chairs</span>
-          <div class="h3">Cabin #2 — Family-Friendly Cabin</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=4" target="_blank">Cabin #2 — Family-Friendly Cabin</a></div>
           <p>King bed plus two leather chairs that pull out into twin beds — ideal for families or groups of up to 4.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=4" target="_blank">Book Cabin #2</a>
         </div>
@@ -627,10 +640,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 3 -->
       <div class="cabin-card">
-        <img src="images/cabin3.webp" alt="Cabin #3 at Al's Hideaway — log cabin exterior with yellow porch chairs" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=3" target="_blank" aria-label="Book Cabin #3"><img src="images/cabin3.webp" alt="Cabin #3 at Al's Hideaway — log cabin exterior with yellow porch chairs" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Twin Pull-Out Chairs</span>
-          <div class="h3">Cabin #3 — King Cabin Near Bandera</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=3" target="_blank">Cabin #3 — King Cabin Near Bandera</a></div>
           <p>King bed and two leather chairs that convert to twin beds. Warm, comfortable, and just minutes from Bandera.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=3" target="_blank">Book Cabin #3</a>
         </div>
@@ -638,10 +651,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 4 -->
       <div class="cabin-card">
-        <img src="images/cabin4.webp" alt="Cabin #4 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=2" target="_blank" aria-label="Book Cabin #4"><img src="images/cabin4.webp" alt="Cabin #4 at Al's Hideaway — rustic bedroom with motorcycle art headboard" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Full Futon</span>
-          <div class="h3">Cabin #4 — Cozy King Cabin</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=2" target="_blank">Cabin #4 — Cozy King Cabin</a></div>
           <p>King-size bed plus a full futon for extra sleeping space. A peaceful Hill Country retreat designed for total relaxation.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=2" target="_blank">Book Cabin #4</a>
         </div>
@@ -649,10 +662,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 5 -->
       <div class="cabin-card">
-        <img src="images/cabin5.webp" alt="Cabin #5 at Al's Hideaway — log cabin with covered porch and yellow chairs" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=5" target="_blank" aria-label="Book Cabin #5"><img src="images/cabin5.webp" alt="Cabin #5 at Al's Hideaway — log cabin with covered porch and yellow chairs" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Full Futon</span>
-          <div class="h3">Cabin #5 — King Cabin with Futon</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=5" target="_blank">Cabin #5 — King Cabin with Futon</a></div>
           <p>King bed and a full-size futon — flexible sleeping for couples or friends exploring the Hill Country.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=5" target="_blank">Book Cabin #5</a>
         </div>
@@ -660,10 +673,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 6 -->
       <div class="cabin-card">
-        <img src="images/cabin6.webp" alt="Cabin #6 at Al's Hideaway — log cabin exterior with covered porch and picnic table" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=6" target="_blank" aria-label="Book Cabin #6"><img src="images/cabin6.webp" alt="Cabin #6 at Al's Hideaway — log cabin exterior with covered porch and picnic table" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Full Futon</span>
-          <div class="h3">Cabin #6 — Hill Country Charm</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=6" target="_blank">Cabin #6 — Hill Country Charm</a></div>
           <p>King bed and full-size futon with classic Hill Country character. A favorite with couples and riders alike.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=6" target="_blank">Book Cabin #6</a>
         </div>
@@ -671,10 +684,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 7 -->
       <div class="cabin-card">
-        <img src="images/cabin7.webp" alt="Cabin #7 at Al's Hideaway — log cabin with wide covered porch and ramp" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=10" target="_blank" aria-label="Book Cabin #7"><img src="images/cabin7.webp" alt="Cabin #7 at Al's Hideaway — log cabin with wide covered porch and ramp" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Leather Sofa</span>
-          <div class="h3">Cabin #7 — Relaxing Hill Country Vibe</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=10" target="_blank">Cabin #7 — Relaxing Hill Country Vibe</a></div>
           <p>King bed and leather sofa. A warm, inviting space perfect for unwinding after a day of riding or exploring.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=10" target="_blank">Book Cabin #7</a>
         </div>
@@ -682,10 +695,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 8 -->
       <div class="cabin-card">
-        <img src="images/cabin8.webp" alt="Cabin #8 at Al's Hideaway — bedroom with cowhide wall decor and Texas star door" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=19" target="_blank" aria-label="Book Cabin #8"><img src="images/cabin8.webp" alt="Cabin #8 at Al's Hideaway — bedroom with cowhide wall decor and Texas star door" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Twin Pull-Out Chairs</span>
-          <div class="h3">Cabin #8 — King Cabin with Pull-Out Chairs</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=19" target="_blank">Cabin #8 — King Cabin with Pull-Out Chairs</a></div>
           <p>King bed plus two leather chairs that convert to twin beds — great for couples or two friends on a road trip.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=19" target="_blank">Book Cabin #8</a>
         </div>
@@ -693,10 +706,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 9 -->
       <div class="cabin-card">
-        <img src="images/cabin9.webp" alt="Cabin #9 at Al's Hideaway — log cabin exterior with warm evening porch lights" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=43" target="_blank" aria-label="Book Cabin #9"><img src="images/cabin9.webp" alt="Cabin #9 at Al's Hideaway — log cabin exterior with warm evening porch lights" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">King Bed · Sleeper Chairs</span>
-          <div class="h3">Cabin #9 — Flexible Layout</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=43" target="_blank">Cabin #9 — Flexible Layout</a></div>
           <p>King bed and leather sleeper chairs — one of our most flexible setups for couples, friends, or small groups.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=43" target="_blank">Book Cabin #9</a>
         </div>
@@ -704,10 +717,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 10 -->
       <div class="cabin-card">
-        <img src="images/cabin10.webp" alt="Cabin #10 at Al's Hideaway — cabin exterior with yellow Adirondack chairs on porch" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=42" target="_blank" aria-label="Book Cabin #10"><img src="images/cabin10.webp" alt="Cabin #10 at Al's Hideaway — cabin exterior with yellow Adirondack chairs on porch" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">Queen Bed · Sleeper Sofa · Full Kitchen</span>
-          <div class="h3">Cabin #10 — One-Bedroom with Full Kitchen</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=42" target="_blank">Cabin #10 — One-Bedroom with Full Kitchen</a></div>
           <p>Queen bed, sleeper sofa, and a fully equipped kitchen — perfect for longer stays or guests who love to cook.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=42" target="_blank">Book Cabin #10</a>
         </div>
@@ -715,10 +728,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 11 -->
       <div class="cabin-card">
-        <img src="images/cabin11.webp" alt="Cabin #11 at Al's Hideaway — full kitchen with stainless steel appliances" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=47" target="_blank" aria-label="Book Cabin #11"><img src="images/cabin11.webp" alt="Cabin #11 at Al's Hideaway — full kitchen with stainless steel appliances" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">Queen Bed · Daybed + Trundle · Full Kitchen</span>
-          <div class="h3">Cabin #11 — Cozy One-Bedroom with Kitchen</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=47" target="_blank">Cabin #11 — Cozy One-Bedroom with Kitchen</a></div>
           <p>Charming one-bedroom cabin with a queen bed, a daybed with trundle, and a full kitchen. Sleeps 4.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=47" target="_blank">Book Cabin #11</a>
         </div>
@@ -726,10 +739,10 @@ main > .store-strip { order: 0; }
 
       <!-- Cabin 12 -->
       <div class="cabin-card">
-        <img src="images/cabin12.webp" alt="Cabin #12 at Al's Hideaway — log cabin exterior with covered porch" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=48" target="_blank" aria-label="Book Cabin #12"><img src="images/cabin12.webp" alt="Cabin #12 at Al's Hideaway — log cabin exterior with covered porch" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag">Queen Bed · Daybed + Trundle · Full Kitchen</span>
-          <div class="h3">Cabin #12 — One-Bedroom with Kitchen</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=48" target="_blank">Cabin #12 — One-Bedroom with Kitchen</a></div>
           <p>Warm queen bedroom, full kitchen, and a living room with a daybed and trundle. Sleeps 4 — great for longer stays.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=48" target="_blank">Book Cabin #12</a>
         </div>
@@ -737,10 +750,10 @@ main > .store-strip { order: 0; }
 
       <!-- MeMaw's — spans full width on last row if odd -->
       <div class="cabin-card" style="grid-column: span 1;">
-        <img src="images/memaws.webp" alt="MeMaw's Cabin at Al's Hideaway — rustic log cabin with natural wood porch railing surrounded by trees" loading="lazy" />
+        <a class="cabin-img-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=773" target="_blank" aria-label="Book MeMaw's Cabin"><img src="images/memaws.webp" alt="MeMaw's Cabin at Al's Hideaway — rustic log cabin with natural wood porch railing surrounded by trees" loading="lazy" /></a>
         <div class="cabin-card-body">
           <span class="cabin-tag cabin-tag-featured">⭐ Guest Favorite</span>
-          <div class="h3">MeMaw's Cabin — Fenced Yard, Guest & Pet Favorite</div>
+          <div class="h3"><a class="cabin-name-link" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=773" target="_blank">MeMaw's Cabin — Fenced Yard, Guest & Pet Favorite</a></div>
           <p>Queen bed, sleeper sofa, sleeper loveseat, twin loft, full kitchen, and a private fenced yard. Sleeps 4. The most-loved cabin at Al's Hideaway — perfect for couples and pet owners.</p>
           <a class="cabin-book-btn" href="https://resnexus.com/resnexus/reservations/book/20FD7925-1339-4A47-AF14-BD5E84999794/?unit=773" target="_blank">Book MeMaw's Cabin</a>
         </div>
